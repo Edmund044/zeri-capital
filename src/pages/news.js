@@ -1,6 +1,6 @@
 import Footer from "@/components/footer";
 import Contact from "@/components/contact"
-import CardWithImage from "@/components/cards/card_with_image";
+import CardWithImage from "@/components/cards/CardWithImage";
 import HeroSectionWithImage from "@/components/heros/HeroSectionWithImage";
 import Topnavigation from "@/components/navigation/TopNavigation";
 import "../app/globals.css";
