@@ -9,7 +9,7 @@ export default function News_() {
         <div className="bg-white">
             <Topnavigation/>
             <CardWithDetailedNews 
-                title="Zeri capital inks deal with safaricom"
+                title="Insights title goes here."
                 date="25 APR 2023"
                 body="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
                 molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum

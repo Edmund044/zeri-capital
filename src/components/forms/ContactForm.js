@@ -7,7 +7,7 @@ export default function ContactForm() {
 <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
     <div className="mr-auto  lg:col-span-6">
     <Image
-      src="/images/gtc.jpeg"
+      src="/images/vision.png"
       alt="Picture of the author"
       width={400} 
       height={600}

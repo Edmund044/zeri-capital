@@ -41,7 +41,7 @@ export default function CardWithImage(props) {
         linkedin: ""} 
       },
 
-  ];;
+  ];
     return ( 
         <main className=" bg-background">
           <a onClick={() => router.push('/news_')}>
