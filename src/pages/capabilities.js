@@ -12,6 +12,7 @@ export default function Capabilities() {
         <Topnavigation/>
         <HeroWithNoImage/>
         <HeroSectionWithImage/>
+        <HeroSectionWithImage/>
         <HeroSectionWithCards/>
         <MetricCard/>
         <HeroSectionWithImage/>

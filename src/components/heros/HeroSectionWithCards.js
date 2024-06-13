@@ -1,24 +1,23 @@
-export default function HeroSectionWithCards() {
+export default function HeroSectionWithCards(props) {
     return ( 
-<section className="bg-gray-900 text-white">
-<div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
+<section className="bg-gray-500">
+<div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-24">
   <div className="mx-auto max-w-lg text-center">
-    <h2 className="text-3xl font-bold sm:text-4xl">Kickstart your marketing</h2>
+    <h1 className="max-w-2xl mb-4 text-4xl font-extrabold font-heading tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">{props.heading}</h1>
 
-    <p className="mt-4 text-gray-300">
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur aliquam doloribus
-      nesciunt eos fugiat. Vitae aperiam fugit consequuntur saepe laborum.
+    <p className="max-w-2xl mb-6 font-body lg:mb-8">
+      {props.subheading}
     </p>
   </div>
 
   <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
     <a
-      className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+      className="block rounded-xl bg-white p-8 transition hover:border-blue-500/10 hover:shadow-blue-500/10"
       href="#"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="size-10 text-pink-500"
+        className="size-10 text-blue-500"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
@@ -35,21 +34,20 @@ export default function HeroSectionWithCards() {
         />
       </svg>
 
-      <h2 className="mt-4 text-xl font-bold text-white">Digital campaigns</h2>
+      <h2 className="mt-4 text-xl font-bold text-black font-heading">Digital campaigns</h2>
 
-      <p className="mt-1 text-sm text-gray-300">
+      <p className="mt-1 text-sm text-black">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci
         distinctio alias voluptatum blanditiis laudantium.
       </p>
     </a>
-
     <a
-      className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+      className="block rounded-xl bg-white p-8 transition hover:border-blue-500/10 hover:shadow-blue-500/10"
       href="#"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="size-10 text-pink-500"
+        className="size-10 text-blue-500"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
@@ -66,21 +64,20 @@ export default function HeroSectionWithCards() {
         />
       </svg>
 
-      <h2 className="mt-4 text-xl font-bold text-white">Digital campaigns</h2>
+      <h2 className="mt-4 text-xl font-bold text-black font-heading">Digital campaigns</h2>
 
-      <p className="mt-1 text-sm text-gray-300">
+      <p className="mt-1 text-sm text-black">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci
         distinctio alias voluptatum blanditiis laudantium.
       </p>
     </a>
-
     <a
-      className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+      className="block rounded-xl bg-white p-8 transition hover:border-blue-500/10 hover:shadow-blue-500/10"
       href="#"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="size-10 text-pink-500"
+        className="size-10 text-blue-500"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
@@ -97,9 +94,9 @@ export default function HeroSectionWithCards() {
         />
       </svg>
 
-      <h2 className="mt-4 text-xl font-bold text-white">Digital campaigns</h2>
+      <h2 className="mt-4 text-xl font-bold text-black font-heading">Digital campaigns</h2>
 
-      <p className="mt-1 text-sm text-gray-300">
+      <p className="mt-1 text-sm text-black">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci
         distinctio alias voluptatum blanditiis laudantium.
       </p>

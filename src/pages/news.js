@@ -1,17 +1,27 @@
 import Footer from "@/components/footer";
 import Contact from "@/components/contact"
-import CardWithImage from "@/components/cards/CardWithImage";
+import CardWithImage from "@/components/cards/CardWithImageNews";
 import HeroSectionWithImage from "@/components/heros/HeroSectionWithImage";
 import Topnavigation from "@/components/navigation/TopNavigation";
 import "../app/globals.css";
+import HeroSectionCTA from "@/components/heros/HeroSectionCTA";
 
 export default function news() {
     return ( 
-        <main className="">
+        <main className="bg-white">
             <Topnavigation/>
-            <HeroSectionWithImage/>
+            <HeroSectionWithImage 
+          heading="Zeri News"
+          description="We believe every Zerian has the capacity for excellence, integrity, passion and curiosity for service to the Entrepreneur and their businesses, so we leave no one behind for every day is day one"
+          picture="/images/vision.png"
+          />
             <CardWithImage/>
-            <Contact/>
+            <HeroSectionCTA
+           heading="Stay Curious"
+           subheading="Sign up to get valuable insights and thought leadership that empowers your decision making."
+           buttonText="Let's learn"
+           type="2"
+       />
             <Footer/>
         </main>    
 
