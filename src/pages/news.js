@@ -17,8 +17,8 @@ export default function news() {
           />
             <CardWithImage/>
             <HeroSectionCTA
-           heading="Stay Curious"
-           subheading="Sign up to get valuable insights and thought leadership that empowers your decision making."
+           heading="Stay Updated"
+           subheading="On the latest thought leadership and news from Zeri, please subscribe."
            buttonText="Let's learn"
            type="2"
        />
