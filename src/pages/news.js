@@ -5,11 +5,13 @@ import HeroSectionWithImage from "@/components/heros/HeroSectionWithImage";
 import Topnavigation from "@/components/navigation/TopNavigation";
 import "../app/globals.css";
 import HeroSectionCTA from "@/components/heros/HeroSectionCTA";
+import CardWithBackGroundImage from "@/components/cards/CardWithBackGroundImage";
 
 export default function news() {
     return ( 
         <main className="bg-white">
             <Topnavigation/>
+            <CardWithBackGroundImage/>
             <HeroSectionWithImage 
           heading="Zeri News"
           description="We believe every Zerian has the capacity for excellence, integrity, passion and curiosity for service to the Entrepreneur and their businesses, so we leave no one behind for every day is day one"

@@ -21,9 +21,6 @@ export default function Career() {
       description="At Zeri, we provide great opportunities for the exceptionally talented individuals desiring to build their future in a culture that values excellence, teamwork and passion while rewarding individual achievements.We value and cherish every Zerian."
     />
 
-    {/* <HeroWithNoImage
-          
-        /> */}
     <HeroWithVideo
      video="/images/vision.png"
      description="We are a team of exceptional people who are driven to deliver exceptional results and are absolutely excited by the opportunity of accelerating the growth of impactful businesses in Africa."
