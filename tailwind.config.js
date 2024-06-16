@@ -16,7 +16,7 @@ module.exports = {
         onBackground: '#FFF8F1',
         surface: '#ecc94b',
         onSurface: '#ecc94b',
-        accent: '#131a46',
+        accent: '#0d1130',
         secondary: '#ecc94b'
       },
       backgroundImage: {

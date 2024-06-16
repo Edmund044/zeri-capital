@@ -1,6 +1,7 @@
 'use client'
 import { useRouter } from 'next/navigation'
 export default function CardWithBackGroundImage(props) {
+  
   const events = [
     { image: "/images/zeri_capital_blue.png",
       title: "Lake Basin Economic Forum.", 
@@ -11,9 +12,6 @@ export default function CardWithBackGroundImage(props) {
       { image: "/images/zeri_capital_gray.png",
       title: "Prof. Thandika Makandawire Lecture Series.", 
       },
-
-
-
   ];
   const router = useRouter()
     return ( 
