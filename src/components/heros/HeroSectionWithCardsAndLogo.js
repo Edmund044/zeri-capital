@@ -34,19 +34,19 @@ export default function HeroSectionWithCardsAndLogo(props) {
     </p>
   </div>
 
-  <div className="mt-8 bg-no-repeat bg-[url('/images/card_background.png')]  bg-accent grid grid-cols-1 gap-48 md:grid-cols-2 lg:grid-cols-2">
+  <div className="mt-8  bg-[url('/images/card_background10.png')]  bg-accent grid grid-cols-1 gap-48 md:grid-cols-2 lg:grid-cols-2">
   {
               contents.map((content,index,array)=>{
                 return (
                   <a
                   key={index}
-                  className="block mt-24 mb-16 mx-12"
+                  className="block mt-4 mb-4 mx-4"
                   href="#"
                 >
             
-                  <h2 className="mt-4 text-5xl font-bold ml-8 text-gray-700 text-white text-center font-heading">{content.title}</h2>
+                  <h2 className="mt-4 text-3xl font-bold ml-8 text-gray-700 text-white text-center font-heading">{content.title}</h2>
             
-                  <p className="mt-1 mx-12 text-3xl text-white">
+                  <p className="mt-1 text-center mx-12 text-xl text-white">
                    {content.subheading}
                   </p>
                 </a>
