@@ -24,7 +24,7 @@ export default function CardWithBackGroundImage(props) {
                   <div key={index} className="rounded-xl relative"
                   onClick={() => router.push('/events_')}>
            <div className="absolute w-full h-full rounded-xl text-white">
-              <p className="font-bold text-xl pl-4 pt-72">{event.title} </p>
+              <p className="font-bold text-xl pl-4 pt-48">{event.title} </p>
               <button className="border ml-4 py-3 px-4 py-1 border-white bg-white text-black hover:bg-secondary hover:text-white border-none mx-2 absolute bottom-4">
               &rarr;
               </button>
