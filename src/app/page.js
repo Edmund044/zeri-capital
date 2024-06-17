@@ -46,6 +46,7 @@ export default function Home() {
            subheading="Sign up to get valuable insights and thought leadership that empowers your decision making."
            buttonText="Let's learn"
            type="2"
+           backGroundColor="bg-white"
        />
         <Footer/>
     </main>

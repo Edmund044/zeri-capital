@@ -35,6 +35,7 @@ export default function Career() {
            heading="Your Growth Matters"
            buttonText="GET IN TOUCH"
            type="1"
+           backGroundColor="bg-gray-100"
        />
     <Footer/> 
   </div>  

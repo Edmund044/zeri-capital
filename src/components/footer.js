@@ -8,7 +8,7 @@ export default function Footer() {
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:pt-24">
         <div class="md:flex mb-24 md:justify-between">
           <div class="mb-6 md:mb-0">
-              <a href="https://flowbite.com/" class="flex items-center">
+              <a href="" class="flex items-center">
                   <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 me-3" alt="FlowBite Logo" />
                   <span class="self-center text-2xl text-white font-semibold whitespace-nowrap dark:text-white">Zeri Capital</span>
               </a>
