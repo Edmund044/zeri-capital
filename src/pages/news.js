@@ -23,7 +23,7 @@ export default function news() {
            subheading="On the latest thought leadership and news from Zeri, please subscribe."
            buttonText="Let's learn"
            type="2"
-           backGroundColor="bg-white"
+           backGroundColor="bg-gray-100"
        />
             <Footer/>
         </main>    

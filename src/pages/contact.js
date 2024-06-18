@@ -19,11 +19,11 @@ export default function ContactUs() {
             <HeroSectionWithCards heading="Corporate Emails"/>
             <HeroSectionMap/>
             <HeroSectionCTA
-                heading="Stay Curious"
-                subheading="Sign up to get valuable insights and thought leadership that empowers your decision making."
-                buttonText="Let's learn"
-                type="2"
-                backGroundColor="bg-white"
+           heading="Stay Updated"
+           subheading="On the latest thought leadership and news from Zeri, please subscribe."
+           buttonText="Let's learn"
+           type="2"
+           backGroundColor="bg-gray-100"
        />
             <Footer/>
         </main>    
