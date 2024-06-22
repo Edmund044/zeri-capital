@@ -7,11 +7,12 @@ import "../app/globals.css";
 import Topnavigation from "@/components/navigation/TopNavigation";
 import HeroSectionWithCards from "@/components/heros/HeroSectionWithCards";
 import HeroSectionCTA from "@/components/heros/HeroSectionCTA";
+import HeroSectionWithBackGroundImage from "@/components/heros/HeroSectionWithBackGroundImage";
 export default function ContactUs() {
     return ( 
         <main className="">
             <Topnavigation/>
-            <HeroWithNoImage
+            <HeroSectionWithBackGroundImage
           heading="We'd love to hear from you."
           description="Do you want to start a project, join the team or just say hi? Get in touch through any of the channels below. We’d love to hear from you."
         />

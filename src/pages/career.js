@@ -25,6 +25,28 @@ export default function Career() {
       heading="Our Culture is about Our People"
       subheading1="The foundation of our culture is built on our core values.These values serve as the bedrock of our organization, inspiring us to excel and uphold the highest standards of integrity,innovation,and client satisfaction."
       subheading2="The Zerian values not only define our culture but also form the essence of why we do wht we do - To exist for th entrepreneur and accelerate the growth of Africa's most business."
+      sectionClass="bg-gray-100"
+      cardClassHeading="mt-4 text-3xl font-bold ml-12 text-gray-700 text-white text-center font-heading"
+      cardClassSubHeading="mt-1 text-center mx-12 text-xl text-white"
+      cardClassBackground="mt-8  bg-[url('/images/card_background10.png')] grid grid-cols-1 gap-48 md:grid-cols-2 lg:grid-cols-2"
+      contents={[
+        {
+          title: "Excellence", 
+          subheading: "We take pride in our work and bring A-game in all our interactions. We encourage rigorous work ethnic and never settle for anything but the best.Our work defines who we are."
+          },
+          {      
+            title: "Passion", 
+            subheading: "This is the collective energy that drives us forward.We value people who go farther than the distance, apply their unique talents to the task at hand, and with clarity, intention and grit."
+          },
+          { 
+            title: "Integrity", 
+            subheading: "We are honest, transparent, and committed to do what is best for our clients and company.Integrity is the  defining quality of our team and work."
+          },
+          { 
+            title: "Curiosity", 
+            subheading: "We seek out knowledge, cultivate our intuition, and always want to understand hidden connections and meetings.Whatever it takes to learn from different perspectives."
+          },
+      ]}
       />
     <HeroSectionMasonry
       heading="A Workplace For Everyone"

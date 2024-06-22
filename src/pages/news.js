@@ -6,11 +6,15 @@ import Topnavigation from "@/components/navigation/TopNavigation";
 import "../app/globals.css";
 import HeroSectionCTA from "@/components/heros/HeroSectionCTA";
 import CardWithBackGroundImage from "@/components/cards/CardWithBackGroundImage";
+import HeroSectionWithBackGroundImage from "@/components/heros/HeroSectionWithBackGroundImage";
 
 export default function news() {
     return ( 
         <main className="bg-white">
             <Topnavigation/>
+            <HeroSectionWithBackGroundImage
+              heading="News & Events"
+            />
             <CardWithBackGroundImage/>
             <HeroSectionWithImage 
           heading="Zeri News"
