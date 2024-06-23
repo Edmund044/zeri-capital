@@ -28,10 +28,10 @@ export default function ContactFormCareers() {
               </div> 
               <div className="sm:col-span-2">
               CV*
-                <div class="flex items-center justify-center w-full">
-                    <label for="dropzone-file" class="flex flex-col items-center justify-center w-full h-12 border-2 border-gray-300 border-dashed rounded-lg cursor-pointer bg-gray-50 dark:hover:bg-bray-800 dark:bg-gray-700 hover:bg-gray-100 dark:border-gray-600 dark:hover:border-gray-500 dark:hover:bg-gray-600">
-                        <div class="flex flex-col items-center justify-center pt-2 pb-2">
-                            <p class="mb-2 text-sm text-gray-500 dark:text-gray-400">Select a file or drop it here.</p>
+                <div className="flex items-center justify-center w-full">
+                    <label for="dropzone-file" className="flex flex-col items-center justify-center w-full h-12 border-2 border-gray-300 border-dashed rounded-lg cursor-pointer bg-gray-50 dark:hover:bg-bray-800 dark:bg-gray-700 hover:bg-gray-100 dark:border-gray-600 dark:hover:border-gray-500 dark:hover:bg-gray-600">
+                        <div className="flex flex-col items-center justify-center pt-2 pb-2">
+                            <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">Select a file or drop it here.</p>
                         </div>
                         <input id="dropzone-file" type="file" className="hidden" />
                     </label>

@@ -3,7 +3,7 @@ export default function HeroWithVideo(props) {
     return ( 
 
 
-<div className="bg-background">
+<div className="bg-white">
   <div className="relative isolate px-6 pt-14 lg:px-8">
     <div className="mx-20 py-4 sm:py-48 lg:py-24">
 

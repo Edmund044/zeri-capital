@@ -15,7 +15,7 @@ export default function Team() {
             />
             
             <CardWithImage
-                heading="Latest News & Insights"
+                gridClass="mt-8 mx-24 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3"
                 classHeading="text-5xl text-center font-bold font-heading text-accent md:text-5xl"
                 contents={
                     [

@@ -15,7 +15,20 @@ export default function news() {
             <HeroSectionWithBackGroundImage
               heading="News & Events"
             />
-            <CardWithBackGroundImage/>
+            <CardWithBackGroundImage
+             heading="Zeri News"
+             contents={[
+                { image: "/images/zeri_capital_blue.png",
+                  title: "Lake Basin Economic Forum.", 
+                  },
+                  { image: "/images/zeri_light_blue.png",
+                  title: "Zeri Economic Forum.", 
+                  },
+                  { image: "/images/zeri_capital_gray.png",
+                  title: "Prof. Thandika Makandawire Lecture Series.", 
+                  },
+              ]}
+            />
             <HeroSectionWithImage 
           heading="Zeri News"
           description="We believe every Zerian has the capacity for excellence, integrity, passion and curiosity for service to the Entrepreneur and their businesses, so we leave no one behind for every day is day one"

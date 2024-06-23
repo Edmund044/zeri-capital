@@ -5,8 +5,8 @@ import Topnavigation from "@/components/navigation/TopNavigation";
 import HeroSectionCTA from "@/components/heros/HeroSectionCTA"
 import HeroWithNoImage from "@/components/heros/HeroWithNoImage";
 import HeroSectionWithCardsAndLogo from "@/components/heros/HeroSectionWithCardsAndLogo";
+import clipRule from "@/components/cards/clipRule";
 import CardWithImage from "@/components/cards/CardWithImage";
-import HeroSectionWithImageLeft from "@/components/heros/HeroSectionWithImageLeft";
 
 export default function Home() {
   return (
@@ -22,25 +22,19 @@ export default function Home() {
           heading="Our Vision"
           subheading="To be Africa’s most exceptional and effective Investment Banking firm."
           description="We believe every Zerian has the capacity for excellence, integrity, passion and curiosity for service to the Entrepreneur and their businesses, so we leave no one behind for every day is day one"
-          picture="/images/zeri_logo_v4.jpeg"
-          sectionClass="bg-accent text-white dark:bg-gray-900 lg:py-4"
-          headingClass="max-w-2xl mb-4 text-5xl font-extrabold font-heading tracking-tight text-white leading-none md:text-5xl xl:text-6xl dark:text-white"
+          picture="/images/vision.png"
           />
-        <HeroSectionWithImageLeft
+        <HeroSectionWithImage 
           heading="Our Purpose"
           subheading="We exist for the Entrepreneur."
           description="We are deeply passionate about the success of the African Entrepreneur. Our commitment to supporting and helping them and the communities they operate in never wavers."
-          picture="/images/zeri_logo_v4.jpeg"
-          sectionClass="bg-accent text-white dark:bg-gray-900 lg:py-4"
-           headingClass="max-w-2xl mb-4 text-5xl font-extrabold font-heading tracking-tight text-white leading-none md:text-5xl xl:text-6xl dark:text-white"
+          picture="/images/vision.png"
          />
         <HeroSectionWithImage
            heading="Our Mission"
            subheading="To accelerate the growth of impactful businesses in Africa."
            description="We strongly believe that sustainable growth can lead to the advancement of African economies thereby solving the important twin issues of unemployment and underemployment. Our obsession therefore, is to midwife the growth and success of impactful Businesses in Africa."
-           picture="/images/zeri_logo_v4.jpeg"
-           sectionClass="bg-accent text-white dark:bg-gray-900 lg:py-4"
-           headingClass="max-w-2xl mb-4 text-5xl font-extrabold font-heading tracking-tight text-white leading-none md:text-5xl xl:text-6xl dark:text-white"
+           picture="/images/vision.png"
         />
         <HeroSectionWithCardsAndLogo
             heading="Our Values"

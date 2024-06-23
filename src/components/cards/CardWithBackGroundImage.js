@@ -2,21 +2,12 @@
 import { useRouter } from 'next/navigation'
 export default function CardWithBackGroundImage(props) {
   
-  const events = [
-    { image: "/images/zeri_capital_blue.png",
-      title: "Lake Basin Economic Forum.", 
-      },
-      { image: "/images/zeri_light_blue.png",
-      title: "Zeri Economic Forum.", 
-      },
-      { image: "/images/zeri_capital_gray.png",
-      title: "Prof. Thandika Makandawire Lecture Series.", 
-      },
-  ];
+  const events = props.contents;
   const router = useRouter()
     return ( 
         <main className=" bg-background py-20">
-          <h1 className="mb-4 text-5xl font-extrabold font-heading  text-accent  md:text-5xl xl:text-6xl dark:text-white text-center">Zeri Events</h1>
+          <h1 className="mb-4 text-5xl font-extrabold font-heading  text-accent  md:text-5xl xl:text-6xl dark:text-white text-center">{props.heading}</h1>
+          <p className="mb-4 text-xl font-normal text-white md:text-5xl lg:text-xl">{props.subheading}</p>
           <div className="mt-8 px-24 mx-24 bg-background grid grid-cols-3 gap-8 md:grid-cols-2 lg:grid-cols-3">
             {
               events.map((event,index,array)=>{
