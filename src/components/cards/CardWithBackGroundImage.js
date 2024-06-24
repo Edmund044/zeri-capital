@@ -6,7 +6,7 @@ export default function CardWithBackGroundImage(props) {
   const router = useRouter()
     return ( 
         <main className=" bg-background py-20">
-          <h1 className="mb-4 text-5xl font-extrabold font-heading  text-accent  md:text-5xl xl:text-6xl dark:text-white text-center">{props.heading}</h1>
+          <h1 className="mb-4 text-4xl font-extrabold font-heading  text-accent  md:text-5xl xl:text-4xl dark:text-white text-center">{props.heading}</h1>
           <p className="mb-4 text-xl font-normal text-white md:text-5xl lg:text-xl">{props.subheading}</p>
           <div className="mt-8 px-24 mx-24 bg-background grid grid-cols-3 gap-8 md:grid-cols-2 lg:grid-cols-3">
             {

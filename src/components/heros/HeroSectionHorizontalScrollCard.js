@@ -3,7 +3,7 @@ export default function HeroSectionHorizontalScrollCard(props) {
     return ( 
         <div class="flex flex-col bg-white m-auto p-auto">
 <h1
-        class="max-w-2xl text-4xl mb-6 font-body lg:mb-8 mx-48"
+        class="max-w-2xl text-5xl font-heading font-extrabold mb-6 font-body lg:mb-8 mx-48"
       >
         {props.heading}
       </h1>
