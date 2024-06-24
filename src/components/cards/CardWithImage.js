@@ -1,6 +1,10 @@
+'use client'
 import Image from 'next/image'
+import { useRouter } from 'next/navigation'
+
 export default function CardWithImage(props) {
   const contents = props.contents;
+  const router = useRouter()
     return ( 
         <main className={props.sectionClass}>
            <h2 className={props.classHeading}>{props.heading}</h2>
@@ -36,7 +40,10 @@ export default function CardWithImage(props) {
             }
           </div>
          <div>
-           <button type="submit" className="text-white absolute ml-[680px]  bg-accent outline hover:bg-secondary font-medium rounded-full text-sm px-4 py-2">View all</button>
+         <a onClick={() => router.push(props.navigationLink)}>
+         <button type="submit" className="text-white absolute ml-[680px]  bg-accent outline hover:bg-secondary font-medium rounded-full text-sm px-4 py-2">View all</button>
+         </a>
+           
          </div>
         </main>
         );

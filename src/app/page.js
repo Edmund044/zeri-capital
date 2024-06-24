@@ -74,6 +74,7 @@ export default function Home() {
            buttonText="Our Capabilities"
            type="1"
            backGroundColor="bg-white"
+           navigationLink="/capabilities"
        />
        <CardWithImage
                 heading="Latest News & Insights"
@@ -103,6 +104,7 @@ export default function Home() {
                         },
                     ]
               }
+              navigationLink="/news"
        />
         <HeroSectionCTA
            heading="Stay Curious"
