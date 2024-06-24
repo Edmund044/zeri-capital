@@ -36,7 +36,7 @@ export default function HeroSectionWithBackGroundImage(props){
                 }
                 else {
                   return (
-                    <section className="bg-cover bg-no-repeat bg-[url('/images/gtc.jpeg')] bg-gray-800 bg-blend-multiply">
+                    <section className={props.jumboTronClass}>
                     <div className="px-4 mx-auto text-center py-24 lg:py-48">
                         <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">{props.heading}</h1>
                         <p className="mb-8 text-2xl ml-8 font-normal text-gray-300 lg:text-4xl sm:px-16 lg:px-48">{props.description}</p>

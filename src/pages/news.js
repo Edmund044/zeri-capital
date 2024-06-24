@@ -14,6 +14,7 @@ export default function news() {
             <Topnavigation/>
             <HeroSectionWithBackGroundImage
               heading="News & Events"
+              jumboTronClass="bg-cover bg-no-repeat bg-[url('/images/gtc.jpeg')] bg-gray-800 bg-blend-multiply"
             />
             <CardWithBackGroundImage
              heading="Zeri News"
@@ -31,7 +32,7 @@ export default function news() {
             />
             <HeroSectionWithImage 
           heading="Zeri News"
-          description="We believe every Zerian has the capacity for excellence, integrity, passion and curiosity for service to the Entrepreneur and their businesses, so we leave no one behind for every day is day one"
+          description="We believe every Zerian has the capacity for excellence, integrity, passion and curiosity for service to the Entrepreneur and their businesses, so we leave no one behind htmlFor every day is day one"
           picture="/images/vision.png"
           />
             <CardWithImage/>

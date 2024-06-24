@@ -13,12 +13,13 @@ import HeroSectionImageInGrid from "@/components/heros/HeroSectionImageInGrid";
 import Image from 'next/image'
 export default function Capabilities() {
     return ( 
-        <div>
+        <div className="bg-white">
         <Topnavigation/>
         <HeroSectionWithBackGroundImage
               heading="Advising the ambitious"
               description="We advise Companies, Governements, Investors, and Fund managers on their most important fianancial stategic matters,s erving as trusted advisor whose sole mission is to ensure the best resukts for their clients."
               buttonText="Our Capabilities"
+              jumboTronClass="bg-cover bg-no-repeat bg-[url('/images/gtc.jpeg')] bg-gray-800 bg-blend-multiply"
             />
         <CardWithBackGroundImage
             heading="I.INVESTMENT BANKING"
@@ -64,13 +65,14 @@ export default function Capabilities() {
               ]}
         />
         <HeroSectionHorizontalScrollCard
-          heading="Our Purpose"
-          subheading="We exist for the Entrepreneur."
+          heading="Industries"
+          subheading="We are sector agnostic though largely provide advice and understanding in sectors that have high imapct:"
           description="We are deeply passionate about the success of the African Entrepreneur. Our commitment to supporting and helping them and the communities they operate in never wavers."
-          picture="/images/zeri_logo_v4.jpeg"
+          picture="/images/money.png"
           sectionClass="bg-accent text-white dark:bg-gray-900 lg:py-4"
-           headingClass="max-w-2xl mb-4 text-5xl font-extrabold font-heading tracking-tight text-white leading-none md:text-5xl xl:text-6xl dark:text-white"
-        
+          headingClass="max-w-2xl mb-4 mx-24 text-5xl font-extrabold font-heading tracking-tight text-accent leading-none md:text-5xl xl:text-6xl dark:text-white"
+          cardHeading="Financial Services"
+          cardHeadingClass="text-4xl font-extrabold text-white"
         />
         <HeroWithVideo
         video="/images/vision.png"
@@ -100,25 +102,6 @@ export default function Capabilities() {
             subheading: "Industries"
           },
       ]}
-      />
-      <HeroSectionImageInGrid
-        contents={
-          [
-              { image: "/images/commitment1.png",
-                card_heading: "Commitments by Ticket Size.", 
-                },
-                { image: "/images/commitment2.png",
-                card_heading: "Commitments by Investor Type.", 
-                },
-                { image: "/images/commitment3.png",
-                card_heading: "Companies we Work With.", 
-                },
-                { image: "/images/commitment3.png",
-                card_heading: "Transaction Focus.", 
-                }
-            ]
-      }
-      
       />
           <div className="grid px-4 py-8 mx-auto bg-white xl:gap-0 lg:py-16 lg:grid-cols-12">
 

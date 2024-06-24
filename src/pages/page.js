@@ -13,20 +13,20 @@ export default function Home() {
     <main className="bg-white">
         <Topnavigation/>
         <HeroWithNoImage
-          heading="We exist for the Entrepreneur"
+          heading="We exist htmlFor the Entrepreneur"
           description="At Zeri our business is built on the founding philosophy of Transforming Africa. Our work is rooted in the idea that given opportunity, the entrepreneur and their businesses can act as agents of change and provide transformational solutions to Africa's unique challenges."
-          description2="Our goal is to be the firm of choice for clients with respect to their most challenging Capital Taising needs, most significant M&A transactions, critical Debt Advisory & Structured Finance, and most important Project & Infrastructure Finance needs."
+          description2="Our goal is to be the firm of choice htmlFor clients with respect to their most challenging Capital Taising needs, most significant M&A transactions, critical Debt Advisory & Structured Finance, and most important Project & Infrastructure Finance needs."
           image="/images/zeri_logo_v3.png"
         />
         <HeroSectionWithImage 
           heading="Our Vision"
           subheading="To be Africa’s most exceptional and effective Investment Banking firm."
-          description="We believe every Zerian has the capacity for excellence, integrity, passion and curiosity for service to the Entrepreneur and their businesses, so we leave no one behind for every day is day one"
+          description="We believe every Zerian has the capacity htmlFor excellence, integrity, passion and curiosity htmlFor service to the Entrepreneur and their businesses, so we leave no one behind htmlFor every day is day one"
           picture="/images/vision.png"
           />
         <HeroSectionWithImage 
           heading="Our Purpose"
-          subheading="We exist for the Entrepreneur."
+          subheading="We exist htmlFor the Entrepreneur."
           description="We are deeply passionate about the success of the African Entrepreneur. Our commitment to supporting and helping them and the communities they operate in never wavers."
           picture="/images/vision.png"
          />
@@ -46,7 +46,7 @@ export default function Home() {
             contents={[
               {
                 title: "Excellence", 
-                subheading: "We take pride in our work and bring A-game in all our interactions. We encourage rigorous work ethnic and never settle for anything but the best.Our work defines who we are."
+                subheading: "We take pride in our work and bring A-game in all our interactions. We encourage rigorous work ethnic and never settle htmlFor anything but the best.Our work defines who we are."
                 },
                 {      
                   title: "Passion", 
@@ -54,7 +54,7 @@ export default function Home() {
                 },
                 { 
                   title: "Integrity", 
-                  subheading: "We are honest, transparent, and committed to do what is best for our clients and company.Integrity is the  defining quality of our team and work."
+                  subheading: "We are honest, transparent, and committed to do what is best htmlFor our clients and company.Integrity is the  defining quality of our team and work."
                 },
                 { 
                   title: "Curiosity", 

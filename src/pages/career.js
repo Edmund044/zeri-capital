@@ -15,6 +15,7 @@ export default function Career() {
     <HeroSectionWithBackGroundImage
       heading="Transform Your Future"
       description="At Zeri, we provide great opportunities for the exceptionally talented individuals desiring to build their future in a culture that values excellence, teamwork and passion while rewarding individual achievements.We value and cherish every Zerian."
+      jumboTronClass="bg-cover bg-no-repeat bg-[url('/images/career.jpeg')] bg-gray-800 bg-blend-multiply"
     />
 
     <HeroWithVideo

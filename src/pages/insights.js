@@ -12,6 +12,7 @@ export default function Insights() {
     <HeroSectionWithBackGroundImage
         heading="Insights"
         description="At Zeri our business is built on the founding philosophy of Transforming Africa. Our work is rooted in the idea that given opportunity, the entrepreneur and their businesses can act as agents of change and provide transformational solutions to Africa's unique challenges."
+        jumboTronClass="bg-cover bg-no-repeat bg-[url('/images/gtc.jpeg')] bg-gray-800 bg-blend-multiply"
     />
     <HorizontalCard/>
     <HeroSectionCTA
