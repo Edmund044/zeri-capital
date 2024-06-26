@@ -1,11 +1,10 @@
 import Footer from "@/components/footer";
-import HeroSectionWithCards from "@/components/heros/HeroSectionWithCards";
 import HeroSectionWithImage from "@/components/heros/HeroSectionWithImage";
 import Topnavigation from "@/components/navigation/TopNavigation";
 import HeroSectionCTA from "@/components/heros/HeroSectionCTA"
 import HeroWithNoImage from "@/components/heros/HeroWithNoImage";
 import HeroSectionWithCardsAndLogo from "@/components/heros/HeroSectionWithCardsAndLogo";
-import clipRule from "@/components/cards/clipRule";
+
 import CardWithImage from "@/components/cards/CardWithImage";
 
 export default function Home() {
