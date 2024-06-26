@@ -13,6 +13,7 @@ export default function Capabilities() {
         <HeroSectionWithBackGroundImage
       heading="Advising Ambitious"
       description="We advise Companies, Governements, Investors, and Fund managers on their most important fianancial stategic matters,s erving as trusted advisor whose sole mission is to ensure the best resukts for their clients."
+      jumboTronClass="bg-cover bg-no-repeat bg-[url('/images/gtc.jpeg')] bg-gray-800 bg-blend-multiply"
     />
             <HeroSectionWithText
           heading="Capital Raising"

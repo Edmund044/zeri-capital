@@ -32,6 +32,7 @@ export default function HeroSectionHorizontalScrollCard(props) {
                 />
                 </div>             
             </div>
+            
           </div>
           {/* <div class="inline-block px-3">
             <div
