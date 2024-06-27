@@ -7,10 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        heading: 'Oswald, ui-serif', // Adds a new `font-display` className
-        body: 'Cormorant,'
-      },
+      // fontFamily: {
+      //   heading: 'Cormorant', // Adds a new `font-display` className
+      //   body: 'Cormorant,'
+      // },
       colors: {
         background: '#FFFFFF',
         onBackground: '#FFF8F1',
