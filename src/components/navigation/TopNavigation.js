@@ -3,7 +3,7 @@ import { useRouter } from 'next/navigation'
 export default function Topnavigation() {
   const router = useRouter()
     return ( 
-        <div className="">
+        <div className="max-w-screen-xl">
 
 <nav className="bg-background cursor-pointer border-gray-200 dark:bg-gray-900">
   <div className=" flex flex-wrap items-center justify-between mx-auto p-4">

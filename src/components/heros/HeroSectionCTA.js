@@ -11,7 +11,7 @@ export default function HeroSectionCTA(props) {
        {props.heading}
       </h2>
 
-      <p className="text-2xl ml-44 mr-32 text-gray-600 sm:mt-4 sm:block font-body">
+      <p className="text-2xl text-gray-600 sm:mt-4 sm:block font-body lg:ml-44 lg:mr-32 md:mx-12">
       {props.subheading}
       </p>
     </div>
