@@ -83,7 +83,7 @@ export default function Capabilities() {
       sectionClass="bg-accent text-white"
       cardClassHeading="mt-4 text-3xl font-bold ml-12 text-gray-700 text-white text-center font-heading"
       cardClassSubHeading="mt-1 text-center mx-12 text-xl text-white"
-      cardClassBackground="mt-8  bg-[url('/images/card_background10.png')] grid grid-cols-1 gap-48 md:grid-cols-2 lg:grid-cols-2"
+      cardClassBackground="mt-8  bg-[url('/images/card_background10.png')] grid grid-cols-1 lg:gap-48 md:grid-cols-2 lg:grid-cols-2"
       contents={[
         {
           title: "$6.3B+", 
@@ -107,7 +107,7 @@ export default function Capabilities() {
 
                     <div  className="lg:col-span-6 lg:px-auto ">
                         
-                        <h1 className="font-bold text-center text-5xl tracking-tight">Commitments by Ticket Size</h1>
+                        <h1 className="font-bold text-center text-4xl lg:text-5xl tracking-tight">Commitments by Ticket Size</h1>
                     <Image
                               src="/images/commitment1.png"
                               alt="Picture of the author"
@@ -118,7 +118,7 @@ export default function Capabilities() {
                     </div>
                     <div  className="lg:col-span-6 lg:px-auto ">
                         
-                        <h1 className="font-bold text-center text-5xl tracking-tight">Commitments by Investor Type</h1>
+                        <h1 className="font-bold text-center  text-4xl lg:text-5xl tracking-tight">Commitments by Investor Type</h1>
                     <Image
                               src="/images/commitment21.png"
                               alt="Picture of the author"
@@ -130,7 +130,7 @@ export default function Capabilities() {
                     </div>
                     <div  className="lg:col-span-6 lg:px-auto ">
                         
-                        <h1 className="font-bold text-center text-5xl tracking-tight">Companies we work with</h1>
+                        <h1 className="font-bold text-center  text-4xl lg:text-5xl tracking-tight">Companies we work with</h1>
                     <Image
                               src="/images/commitment3.png"
                               alt="Picture of the author"
@@ -141,13 +141,13 @@ export default function Capabilities() {
                     </div>
                     <div  className="lg:col-span-6 lg:px-auto ">
                         
-                        <h1 className="font-bold text-center text-5xl tracking-tight">Transaction Focus</h1>
+                        <h1 className="font-bold text-center  text-4xl lg:text-5xl tracking-tight">Transaction Focus</h1>
                     <Image
                               src="/images/commitment4.png"
                               alt="Picture of the author"
                               width={518} 
                               height={400}
-                              className="ml-16"
+                              className="lg:ml-16"
                               />
                 
                     </div>

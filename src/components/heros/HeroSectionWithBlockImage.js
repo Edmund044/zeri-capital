@@ -8,7 +8,7 @@ export default function HeroSectionWithBlockImage(props) {
 
     <div className=" py-4 sm:py-48 lg:py-4">
       <div className="">
-        <h1 className="font-bold text-center text-5xl tracking-tight">{props.heading}</h1>
+        <h1 className="font-bold text-center text-4xl lg:text-5xl tracking-tight">{props.heading}</h1>
         <Image
       src={props.image}
       alt="Picture of the author"
