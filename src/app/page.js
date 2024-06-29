@@ -19,7 +19,7 @@ export default function Home() {
           description2="Our goal is to be the firm of choice for clients with respect to their most challenging Capital Taising needs, most significant M&A transactions, critical Debt Advisory & Structured Finance, and most important Project & Infrastructure Finance needs."
           image="/images/zeri_logo_v3.png"
         />
-        <HeroSectionWithImageOverlay 
+        {/* <HeroSectionWithImageOverlay 
           heading="OUR VISION"
           subheading="To be Africa’s most exceptional and effective Investment Banking firm."
           description="We believe every Zerian has the capacity for excellence, integrity, passion and curiosity for service to the Entrepreneur and their businesses, so we leave no one behind for every day is day one"
@@ -42,14 +42,14 @@ export default function Home() {
            picture="/images/zeri_logo_v4.jpeg"
            sectionClass="bg-accent text-white dark:bg-gray-900 lg:py-4"
            headingClass="ml-40 mb-4 text-4xl font-extrabold font-heading tracking-tight text-white leading-none md:text-5xl xl:text-4xl dark:text-white"
-        />
+        /> */}
         <HeroSectionWithCardsAndLogo
             heading="Our Values"
             subheading1="In Pursuit of our shared vision, we aim to be EPIC."
             sectionClass="bg-white"
-            cardClassHeading="mt-4 text-3xl font-bold ml-12 text-gray-700 text-black text-left font-heading"
-            cardClassSubHeading="mt-1 text-left mx-12 text-xl text-black"
-            cardClassBackground="mt-8  bg-[url('/images/card_background_v2.png')] grid grid-cols-1 gap-48 md:grid-cols-2 lg:grid-cols-2"
+            cardClassHeading="mt-4 lg:text-4xl text-3xl  font-bold lg:ml-12 text-gray-700 text-extrabold text-left font-heading"
+            cardClassSubHeading="mt-1 lg:text-left lg:mx-12 text-xl text-black"
+            cardClassBackground="mt-8  bg-[url('/images/card_background_v2.png')] grid grid-cols-1 lg:gap-48 md:grid-cols-2 lg:grid-cols-2"
             contents={[
               {
                 title: "Excellence", 
@@ -82,7 +82,7 @@ export default function Home() {
                 sectionClass="bg-accent py-20"
                 classHeading="text-5xl text-center text-white font-bold font-heading text-accent md:text-5xl"
                 callToActionClass="flex space-x-6 invisible"
-                gridClass="mt-8 mx-24 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3"
+                gridClass="mt-8 mx-8 lg:mx-24 grid grid-cols-1 lg:gap-8 md:grid-cols-2 lg:grid-cols-3"
                 contents={
                   [
                       { image: "/images/vision.png",

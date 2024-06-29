@@ -23,7 +23,7 @@ export default function HeroSectionWithCardsAndLogo(props) {
                 return (
                   <a
                   key={index}
-                  className="block mt-4 mb-4 mx-4"
+                  className="block mt-4 mb-4 lg:mx-4"
                   href="#"
                 >
             

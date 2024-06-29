@@ -21,8 +21,8 @@ export default function CardWithImage(props) {
                   height={400}
                   />
                   <div className="lg:p-5">
-                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{content.name}</h5>
-                  <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">{content.title}</p>
+                    <h5 className="mb-2 text-2xl ml-4 font-bold tracking-tight text-gray-900 dark:text-white">{content.name}</h5>
+                  <p className="mb-3 font-normal ml-4 text-gray-700 dark:text-gray-400">{content.title}</p>
                   <div className={props.callToActionClass}>
                           <a href={content.social_media.linkedin} className="text-blue-500 hover:text-secondary">
                             <span className="sr-only">Linkedin</span>
