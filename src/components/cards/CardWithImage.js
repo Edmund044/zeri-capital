@@ -12,7 +12,7 @@ export default function CardWithImage(props) {
             {
               contents.map((content,index,array)=>{
                 return (
-                  <div key={index} className="max-w-sm mb-8 bg-white dark:bg-gray-800 dark:border-gray-700">
+                  <div key={index} className="lg:max-w-sm mb-8 bg-white dark:bg-gray-800 dark:border-gray-700">
                   <h2 className={props.classCardHeading}>{content.card_heading}</h2>
                   <Image
                   src={content.image}
@@ -20,7 +20,7 @@ export default function CardWithImage(props) {
                   width={1000} 
                   height={400}
                   />
-                  <div className="p-5">
+                  <div className="lg:p-5">
                     <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{content.name}</h5>
                   <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">{content.title}</p>
                   <div className={props.callToActionClass}>
@@ -41,7 +41,7 @@ export default function CardWithImage(props) {
           </div>
          <div>
          <a onClick={() => router.push(props.navigationLink)}>
-         <button type="submit" className="text-white absolute ml-[680px]  bg-accent outline hover:bg-secondary font-medium rounded-full text-sm px-4 py-2">View all</button>
+         <button type="submit" className={props.buttonClass}>View all</button>
          </a>
            
          </div>

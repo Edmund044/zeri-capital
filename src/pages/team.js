@@ -16,7 +16,7 @@ export default function Team() {
             />
             
             <CardWithImage
-                gridClass="mt-8 mx-24 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3"
+                gridClass="mt-8 lg:mx-24 mx-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3"
                 classHeading="text-5xl text-center font-bold font-heading text-accent md:text-5xl"
                 contents={
                     [
@@ -47,6 +47,7 @@ export default function Team() {
                     
                       ]
                 }
+                buttonClass="text-white hidden lg:ml-[680px] mx-28  bg-accent outline hover:bg-secondary font-medium rounded-full text-sm px-4 py-2"
             />
             <HeroSectionCTA
                 heading="Stay Curious"
