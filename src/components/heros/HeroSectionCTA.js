@@ -5,7 +5,7 @@ export default function HeroSectionCTA(props) {
     return ( 
         <main className="">
 <section className={props.backGroundColor}>
-  <div className="p-8 md:p-12 lg:px-16 mt-20 lg:py-44">
+  <div className="p-8 md:p-12 lg:px-16 lg:mt-20 lg:py-44">
     <div className="">
       <h2 className="lg:text-5xl text-3xl text-center font-bold font-heading text-accent md:text-5xl">
        {props.heading}
@@ -19,9 +19,9 @@ export default function HeroSectionCTA(props) {
     {(() => {
         if (props.type == '1') {
           return (
-            <div className="mt-8 max-w-xl">
+            <div className="mt-8 text-center">
               <a onClick={() => router.push(props.navigationLink)}>
-              <button type="submit" className="lg:ml-48 lg:ml-30 lg:mb-20 ml-20 mb-20 text-white text-center bg-accent hover:bg-secondary font-medium rounded-full text-sm px-8 py-4">{props.buttonText}</button>
+              <button type="submit" className="text-white bg-accent hover:bg-secondary font-medium rounded-full text-sm px-4 py-2 lg:px-8 lg:py-4 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">{props.buttonText}</button>
               </a>
            
           </div>
