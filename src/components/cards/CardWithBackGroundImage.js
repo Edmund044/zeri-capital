@@ -8,14 +8,14 @@ export default function CardWithBackGroundImage(props) {
         <main className=" bg-background py-20">
           <h1 className="mb-4 text-4xl font-extrabold font-heading  text-accent  md:text-5xl xl:text-4xl dark:text-white text-center">{props.heading}</h1>
           <p className="mb-4 text-xl font-normal text-white md:text-5xl lg:text-xl">{props.subheading}</p>
-          <div className="mt-8 px-24 mx-24 bg-background grid grid-cols-3 gap-8 md:grid-cols-2 lg:grid-cols-3">
+          <div className="lg:mt-8 lg:px-24 lg:mx-24 mx-8 bg-background grid grid-cols-1 gap-8 lg:gap-8 md:grid-cols-2 lg:grid-cols-3">
             {
               events.map((event,index,array)=>{
                 return (
                   <div key={index} className="rounded-xl relative"
                   onClick={() => router.push('/events_')}>
            <div className="absolute w-full h-full rounded-xl text-white">
-              <p className="font-bold text-xl pl-4 pt-48">{event.title} </p>
+              <p className="font-bold text-xl pt-8 pl-4 lg:pl-4 lg:pt-48">{event.title} </p>
               <button className="border ml-4 py-3 px-4 py-1 border-white bg-white text-black hover:bg-secondary hover:text-white border-none mx-2 absolute bottom-4">
               &rarr;
               </button>

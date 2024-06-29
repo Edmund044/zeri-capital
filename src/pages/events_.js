@@ -41,6 +41,7 @@ export default function News_() {
                 recusandae alias error harum maxime adipisci amet laborum. Perspiciatis 
                 minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit 
 "
+                navigationLink="/news"
                 />
             <HeroSectionCTA
                        heading="Stay Curious"

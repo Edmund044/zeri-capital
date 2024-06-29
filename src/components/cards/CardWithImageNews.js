@@ -45,7 +45,7 @@ export default function CardWithImage(props) {
     return ( 
         <main className=" bg-background">
           <a onClick={() => router.push('/news_')}>
-          <div className="mt-8 mx-24 bg-background grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-8 lg:mx-24 bg-background grid grid-cols-1 lg:gap-8 md:grid-cols-2 lg:grid-cols-3">
             {
               teamMembers.map((teamMember,index,array)=>{
                 return (
