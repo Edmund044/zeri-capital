@@ -28,8 +28,8 @@ export default function Career() {
       subheading2="The Zerian values not only define our culture but also form the essence of why we do wht we do - To exist for th entrepreneur and accelerate the growth of Africa's most business."
       sectionClass="bg-gray-100"
       cardClassHeading="mt-4 text-3xl font-bold ml-12 text-gray-700 text-white text-center font-heading"
-      cardClassSubHeading="mt-1 text-center mx-12 text-xl text-white"
-      cardClassBackground="mt-8  bg-[url('/images/card_background10.png')] grid grid-cols-1 gap-48 md:grid-cols-2 lg:grid-cols-2"
+      cardClassSubHeading="mt-1 text-center lg:mx-12 text-xl text-white"
+      cardClassBackground="mt-8  bg-[url('/images/card_background10.png')] grid grid-cols-1 lg:gap-48 md:grid-cols-2 lg:grid-cols-2"
       contents={[
         {
           title: "Excellence", 

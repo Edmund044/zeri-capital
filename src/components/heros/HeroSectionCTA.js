@@ -21,7 +21,7 @@ export default function HeroSectionCTA(props) {
           return (
             <div className="mt-8 max-w-xl">
               <a onClick={() => router.push(props.navigationLink)}>
-              <button type="submit" className="lg:ml-48 ml-30 lg:mb-20 text-white text-center absolute bg-accent hover:bg-secondary font-medium rounded-full text-sm px-8 py-4">{props.buttonText}</button>
+              <button type="submit" className="lg:ml-48 lg:ml-30 lg:mb-20 ml-20 mb-20 text-white text-center bg-accent hover:bg-secondary font-medium rounded-full text-sm px-8 py-4">{props.buttonText}</button>
               </a>
            
           </div>

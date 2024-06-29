@@ -5,11 +5,11 @@ export default function HeroWithVideo(props) {
 
 <div className="bg-white">
   <div className="relative isolate px-6 pt-14 lg:px-8">
-    <div className="mx-20 py-4 sm:py-48 lg:py-24">
+    <div className="lg:mx-20 py-4 sm:py-48 lg:py-24">
 
       <div className="">
-        <h1 className="font-bold text-5xl tracking-tight">{props.heading}</h1>
-        <p className="mb-6 font-body text-3xl lg:mb-8 ">{props.description}</p>
+        <h1 className="font-bold lg:text-5xl tracking-tight">{props.heading}</h1>
+        <p className="mb-6 font-body text-xl lg:text-3xl lg:mb-8 ">{props.description}</p>
       </div>
 
       <video className="w-full" controls>

@@ -27,7 +27,7 @@ export default function HeroSectionMasonry(){
             </div>
     
         </div>
-        <div className="lg:mt-0 lg:col-span-5 lg:flex">
+        <div className="lg:mt-0 mt-4 lg:col-span-5 lg:flex">
         <div onClick={() => router.push('/career_')} className="absolute w-full h-full rounded-xl text-white">
               <h1 className="font-bold text-5xl  w-5/12  pl-4 pt-16">EXPERIENCED PROFESSIONALS</h1>
               <p className="font-normal text-3xl pl-4">3+ years</p>
