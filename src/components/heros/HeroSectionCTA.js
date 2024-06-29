@@ -5,13 +5,13 @@ export default function HeroSectionCTA(props) {
     return ( 
         <main className="">
 <section className={props.backGroundColor}>
-  <div className="p-8 md:p-12 lg:px-16 mt-20 lg:py-32">
+  <div className="p-8 md:p-12 lg:px-16 mt-20 lg:py-44">
     <div className="">
-      <h2 className="text-5xl text-center font-bold font-heading text-accent md:text-5xl">
+      <h2 className="lg:text-5xl text-3xl text-center font-bold font-heading text-accent md:text-5xl">
        {props.heading}
       </h2>
 
-      <p className="text-2xl text-gray-600 sm:mt-4 sm:block font-body lg:ml-44 lg:mr-32 md:mx-12">
+      <p className="lg:text-2xl text-center text-gray-600 sm:mt-4 sm:block font-body lg:ml-44 lg:mr-32 md:mx-12">
       {props.subheading}
       </p>
     </div>
@@ -19,9 +19,9 @@ export default function HeroSectionCTA(props) {
     {(() => {
         if (props.type == '1') {
           return (
-            <div className="mx-auto mt-8 max-w-xl">
+            <div className="mt-8 max-w-xl">
               <a onClick={() => router.push(props.navigationLink)}>
-              <button type="submit" className="ml-48 text-white text-center absolute bg-accent hover:bg-secondary font-medium rounded-full text-sm px-8 py-4">{props.buttonText}</button>
+              <button type="submit" className="lg:ml-48 ml-30 lg:mb-20 text-white text-center absolute bg-accent hover:bg-secondary font-medium rounded-full text-sm px-8 py-4">{props.buttonText}</button>
               </a>
            
           </div>

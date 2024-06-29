@@ -164,7 +164,7 @@ export default function Capabilities() {
            buttonText="Let's do it"
            type="1"
            backGroundColor="bg-gray-100"
-           subheading="Clients come to us for advice at all stages of their business.Raisinf capital,creating acquisition plans,selling a company and many more. Whatever your most important challenge might be, our investment banking and fianancial advisory capabilities always come with Excellence, Passion, Intergrity and Curiosity for the work.That is how we help you achieve the extraordinary and be impactful."
+           subheading="Clients come to us for advice at all stages of their business.Raising capital,creating acquisition plans,selling a company and many more. Whatever your most important challenge might be, our investment banking and fianancial advisory capabilities always come with Excellence, Passion, Intergrity and Curiosity for the work.That is how we help you achieve the extraordinary and be impactful."
        />
         <Footer/> 
         </div>

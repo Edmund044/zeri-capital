@@ -10,7 +10,7 @@ import HeroSectionCTA from "@/components/heros/HeroSectionCTA";
 import HeroSectionWithBackGroundImage from "@/components/heros/HeroSectionWithBackGroundImage";
 export default function ContactUs() {
     return ( 
-        <main className="">
+        <main className="bg-background">
             <Topnavigation/>
             <HeroSectionWithBackGroundImage
           heading="We'd love to hear from you."

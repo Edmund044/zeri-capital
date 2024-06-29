@@ -25,7 +25,7 @@ export default function ContactForm() {
           <div className="sm:col-span-2">
               <textarea id="message" rows="6" className="block p-2.5 w-full text-sm text-gray-900 rounded-none " placeholder="Your message"></textarea>
           </div>
-          <button type="submit" className="ml-44 text-white absolute bg-accent hover:bg-secondary font-medium rounded-full text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Send message &rarr;</button>
+          <button type="submit" className="lg:ml-44 text-white ml-16 mb-8 bg-accent hover:bg-secondary font-medium rounded-full text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Send message &rarr;</button>
       </form>
     </div>                
 </div>
