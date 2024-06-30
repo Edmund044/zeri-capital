@@ -19,13 +19,13 @@ export default function Home() {
           description2="Our goal is to be the firm of choice for clients with respect to their most challenging Capital Taising needs, most significant M&A transactions, critical Debt Advisory & Structured Finance, and most important Project & Infrastructure Finance needs."
           image="/images/zeri_logo_v3.png"
         />
-        {/* <HeroSectionWithImageOverlay 
+        <HeroSectionWithImageOverlay 
           heading="OUR VISION"
           subheading="To be Africa’s most exceptional and effective Investment Banking firm."
           description="We believe every Zerian has the capacity for excellence, integrity, passion and curiosity for service to the Entrepreneur and their businesses, so we leave no one behind for every day is day one"
           picture="/images/zeri_logo_v4.jpeg"
           sectionClass="bg-accent text-white dark:bg-gray-900 lg:py-4"
-          headingClass="ml-40 mb-4 text-4xl font-extrabold font-heading tracking-tight text-white leading-none md:text-5xl xl:text-4xl dark:text-white"
+          headingClass="lg:ml-40 mb-4 lg:text-4xl font-extrabold font-heading tracking-tight text-white leading-none md:text-5xl xl:text-4xl dark:text-white"
           />
         <HeroSectionWithImageLeft
           heading="OUR PURPOSE"
@@ -33,7 +33,7 @@ export default function Home() {
           description="We are deeply passionate about the success of the African Entrepreneur. Our commitment to supporting and helping them and the communities they operate in never wavers."
           picture="/images/zeri_logo_v4.jpeg"
           sectionClass="bg-accent text-white dark:bg-gray-900 lg:py-4"
-           headingClass="ml-40 mb-4 text-4xl font-extrabold font-heading tracking-tight text-white leading-none md:text-5xl xl:text-4xl dark:text-white"
+           headingClass="lg:ml-40 mb-4 lg:text-4xl font-extrabold font-heading tracking-tight text-white leading-none md:text-5xl xl:text-4xl dark:text-white"
          />
         <HeroSectionWithImageOverlay
            heading="OUR MISSION"
@@ -41,8 +41,8 @@ export default function Home() {
            description="We strongly believe that sustainable growth can lead to the advancement of African economies thereby solving the important twin issues of unemployment and underemployment. Our obsession therefore, is to midwife the growth and success of impactful Businesses in Africa."
            picture="/images/zeri_logo_v4.jpeg"
            sectionClass="bg-accent text-white dark:bg-gray-900 lg:py-4"
-           headingClass="ml-40 mb-4 text-4xl font-extrabold font-heading tracking-tight text-white leading-none md:text-5xl xl:text-4xl dark:text-white"
-        /> */}
+           headingClass="lg:ml-40 mb-4 lg:text-4xl font-extrabold font-heading tracking-tight text-white leading-none md:text-5xl xl:text-4xl dark:text-white"
+        />
         <HeroSectionWithCardsAndLogo
             heading="Our Values"
             subheading1="In Pursuit of our shared vision, we aim to be EPIC."
@@ -106,6 +106,7 @@ export default function Home() {
                     ]
               }
               navigationLink="/news"
+              buttonClass="text-white lg:ml-[680px] mx-28  bg-accent outline hover:bg-secondary font-medium rounded-full text-sm px-4 py-2"
        />
         <HeroSectionCTA
            heading="Stay Curious"
