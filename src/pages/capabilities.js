@@ -17,7 +17,7 @@ export default function Capabilities() {
         <Topnavigation/>
         <HeroSectionWithBackGroundImage
               heading="Advising the ambitious"
-              description="We advise Companies, Governements, Investors, and Fund managers on their most important fianancial stategic matters,s erving as trusted advisor whose sole mission is to ensure the best resukts for their clients."
+              description="We advise Companies, Governements, Investors, and Fund managers on their most important fianancial stategic matters,s erving as trusted advisor whose sole mission is to ensure the best results for their clients."
               buttonText="Our Capabilities"
               jumboTronClass="bg-cover bg-no-repeat bg-[url('/images/gtc.jpeg')] bg-gray-800 bg-blend-multiply"
             />
@@ -66,7 +66,7 @@ export default function Capabilities() {
         />
         <HeroSectionHorizontalScrollCard
           heading="Industries"
-          subheading="We are sector agnostic though largely provide advice and understanding in sectors that have high imapct:"
+          subheading="We are sector agnostic though largely provide advice and understanding in sectors that have high impact:"
           description="We are deeply passionate about the success of the African Entrepreneur. Our commitment to supporting and helping them and the communities they operate in never wavers."
           picture="/images/money.png"
           sectionClass="bg-accent text-white dark:bg-gray-900 lg:py-4"

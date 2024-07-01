@@ -5,7 +5,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 export default function HeroSectionHorizontalScrollCard(props) {
   const responsive = [1,2,3]
     return ( 
-<div className="flex flex-col bg-white m-auto p-auto">
+<div className="bg-white m-auto p-auto">
 <h1
         className="max-w-2xl lg:text-5xl text-4xl font-heading mx-8 font-extrabold mb-6 font-body lg:mb-8 lg:mx-48"
       >
@@ -21,33 +21,57 @@ export default function HeroSectionHorizontalScrollCard(props) {
         </span>
     </button>
       <div
-        className="flex overflow-x-scroll pb-10 hide-scroll-bar"
+        className=""
       >
         <Carousel
             showArrows={true}
             showIndicators={true}
             infiniteLoop={true}
             dynamicHeight={false}
-            // className={styles.mySwiper}
+            className=""
+            axis="horizontal"
+            renderArrowPrev={(clickHandler, hasPrev) => {
+              return (
+                <div
+                  className="flex justify-end p-3  cursor-pointer z-20"
+                  onClick={clickHandler}
+                >
+                   <button className="bg-white text-4xl w-9 h-9 text-accent">&larr;</button>
+                   <button className="bg-white text-4xl w-9 h-9 text-accent">&rarr;</button>
+                   
+                </div>
+              );
+            }}
+            renderArrowNext={(clickHandler, hasNext) => {
+              return (
+                <div
+                className=" bg-red-500 flex justify-center items-center p-3  cursor-pointer"
+                  onClick={clickHandler}
+                >
+                  <button className="bg-white text-4xl w-9 h-9 text-accent">&rarr;</button>
+                </div>
+              );
+            }}
           >
             {responsive.map((item) => (
               <div key={item.id} className="">
                           <div
-          className="flex flex-row bg-white lg:ml-40 md:ml-20 ml-10 "
+          className="bg-white py-4 lg:ml-40 md:ml-20 ml-10 "
         >
         <div className="inline-block overflow-hidden px-3">
             <div className="grid lg:gap-0 xl:gap-0 lg:py-4 lg:grid-cols-12 snap-center"> 
-                <div className="mr-auto place-self-center py-32 px-8 lg:col-span-6 text-white bg-accent">
+                <div className="mr-auto place-self-center py-40 px-8 lg:col-span-6 text-white bg-accent">
         <h1 className={props.cardHeadingClass}>{props.cardHeading}</h1>
                     <p className="text-2xl mb-6 font-body lg:mb-8">{props.description}</p>
         </div>
-        <div className="lg:mt-0 lg:col-span-6 lg:flex">
-        <Image
+        <div className="lg:mt-0 py-12 lg:col-span-6 ">
+        <img className="rounded-none" src={props.picture} alt=""></img>
+        {/* <Image
                 src={props.picture}
                 alt="Picture of the author"
                 width={400} 
-                height={300}
-                />
+                height={100}
+                /> */}
         </div>
     </div>
     
