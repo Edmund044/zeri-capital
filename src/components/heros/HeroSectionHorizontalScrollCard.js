@@ -44,12 +44,12 @@ export default function HeroSectionHorizontalScrollCard(props) {
             }}
             renderArrowNext={(clickHandler, hasNext) => {
               return (
-                <div
-                className=" bg-red-500 flex justify-center items-center p-3  cursor-pointer"
-                  onClick={clickHandler}
-                >
-                  <button className="bg-white text-4xl w-9 h-9 text-accent">&rarr;</button>
-                </div>
+                // <div
+                // className=" bg-red-500 flex justify-center items-center p-3  cursor-pointer"
+                //   onClick={clickHandler}
+                // >
+                //   <button className="bg-white text-4xl w-9 h-9 text-accent">&rarr;</button>
+                // </div>
               );
             }}
           >
