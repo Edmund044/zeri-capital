@@ -12,16 +12,16 @@ export default function CardWithBackGroundImage(props) {
             {
               events.map((event,index,array)=>{
                 return (
-                  <div key={index} className="rounded-xl relative"
-                  onClick={() => router.push('/events_')}>
-           <div className="absolute w-full h-full rounded-xl text-white">
-              <p className="font-bold text-xl pt-8 pl-4 lg:pl-4 lg:pt-48">{event.title} </p>
+                  <div key={index} className="rounded-xl  relative"
+                  onClick={() => router.push('/capabilities_')}>
+           <div className="absolute  h-full rounded-xl text-white">
+              <p className="font-bold text-xl pt-8 pl-4 text-white lg:pl-4 lg:pt-72">{event.title} </p>
               <button className="border ml-4 py-3 px-4 py-1 border-white bg-white text-black hover:bg-secondary hover:text-white border-none mx-2 absolute bottom-4">
               &rarr;
               </button>
             </div>
             <img
-              className="max-h-[300px]  md:max-h-[400px] w-full object-contain rounded-xl"
+              className="h-[300px] w-[350px]  object-cover md:h-[400px] rounded-xl"
               src={event.image}
               alt="/"
             ></img>

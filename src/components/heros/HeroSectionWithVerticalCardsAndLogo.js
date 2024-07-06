@@ -14,7 +14,7 @@ export default function HeroSectionWithVerticalCardsAndLogo(props) {
   const contents = props.contents
   const router = useRouter()
     return ( 
-<section className={props.sectionClass}>
+<section  className={props.sectionClass}>
 <div className="px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-24">
   <div className="text-center">
     <h1 className=" mb-4 text-3xl lg:text-4xl font-extrabold font-heading md:text-5xl xl:text-5xl text-center">{props.heading}</h1>
@@ -32,7 +32,7 @@ export default function HeroSectionWithVerticalCardsAndLogo(props) {
     {
               props.contents.map((value,index,array)=>{
                 return (
-                    <div className="mb-8">
+                    <div key={index} className="mb-8">
         <h2 className={props.cardClassHeading}>{value.title}</h2>
         <p className={props.cardClassSubHeading}>{value.subheading}</p>
                   </div>

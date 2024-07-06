@@ -6,13 +6,18 @@ export default function ContactForm() {
 <section className="bg-background dark:bg-gray-900">
 <div className="grid max-w-screen-xl px-4 py-12 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
     <div className="mr-auto  lg:col-span-6">
-    <Image
+    {/* <Image
       src="/images/gtc.jpeg.png"
       alt="Picture of the author"
       width={400} 
       height={600}
 
-    />
+    /> */}
+    <img
+              className="lg:h-[500px] object-cover lg:w-[500px]"
+              src="/images/gtc.jpeg"
+              alt="/"
+            ></img>
     </div>
     <div className="bg-gray-100 lg:mt-0  lg:col-span-6 px-16 pt-16 ">
     <form action="#" className=" space-y-8">

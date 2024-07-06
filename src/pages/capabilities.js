@@ -26,22 +26,22 @@ export default function Capabilities() {
         <CardWithBackGroundImage
             heading="I.INVESTMENT BANKING"
             contents={[
-                { image: "/images/gtc.jpeg",
+                { image: "/images/capabilities_1.png",
                   title: "Capital raising.", 
                   },
-                  { image: "/images/gtc.jpeg",
+                  { image: "/images/capabilities_2.png",
                   title: "Mergers & acquisition.", 
                   },
-                  { image: "/images/zeri_capital_gray.png",
+                  { image: "/images/capabilities_3.png",
                   title: "Debt & Structured Finance.", 
                   },
-                  { image: "/images/zeri_light_blue.png",
+                  { image: "/images/capabilities_4.png",
                   title: "Restructuring.", 
                   },
-                  { image: "/images/zeri_capital_gray.png",
+                  { image: "/images/capabilities_5.png",
                   title: "Sovereign Advisory.", 
                   },
-                  { image: "/images/zeri_capital_blue.png",
+                  { image: "/images/capabilities_6.png",
                   title: "Private Equity Advisory.", 
                   },
               ]}
@@ -49,19 +49,19 @@ export default function Capabilities() {
         <CardWithBackGroundImage
             heading="II.FINANCIAL ADVISORY"
             contents={[
-                { image: "/images/zeri_capital_gray.png",
+                { image: "/images/capabilities_5.png",
                   title: "Financial Modelling and Analysis.", 
                   },
-                  { image: "/images/zeri_capital_blue.png",
+                  { image: "/images/capabilities_3.png",
                   title: "Valuation Analysis.", 
                   },
-                  { image: "/images/zeri_light_blue.png",
+                  { image: "/images/capabilities_1.png",
                   title: "Due Diligence: Financial & Commercial.", 
                   },
-                  { image: "/images/zeri_capital_blue.png",
+                  { image: "/images/capabilities_2.png",
                   title: "Strategy & Growth.", 
                   },
-                  { image: "/images/zeri_light_blue.png",
+                  { image: "/images/capabilities_4.png",
                   title: "Start-Up Advisory.", 
                   },
               ]}
@@ -110,25 +110,35 @@ export default function Capabilities() {
                     <div  className="lg:col-span-6 lg:px-auto ">
                         
                         <h1 className="font-bold text-center text-4xl lg:text-5xl tracking-tight">Commitments by Ticket Size</h1>
-                    <Image
-                              src="/images/commitment1.png"
+                    {/* <Image
+                              src="/images/commitment_1.png"
                               alt="Picture of the author"
                               width={1000} 
                               height={400}
-                              />
+                              /> */}
+                                          <img
+              className="lg:h-[950px] lg:w-[1048px]"
+              src="/images/commitment_1.png"
+              alt="/"
+            ></img>
                 
                     </div>
                     <div  className="lg:col-span-6 lg:px-auto ">
                         
                         <h1 className="font-bold text-center  text-4xl lg:text-5xl tracking-tight">Commitments by Investor Type</h1>
-                    <Image
-                              src="/images/commitment21.png"
+                    {/* <Image
+                              src="/images/commitment_2.png"
                               alt="Picture of the author"
                               width={600} 
                               height={900}
                               className="mt-2"
                               />
-                
+                 */}
+                                                           <img
+              className="lg:h-[950px] lg:w-[1048px]"
+              src="/images/commitment_2.png"
+              alt="/"
+            ></img>
                     </div>
                     <div  className="lg:col-span-6 lg:px-auto ">
                         
@@ -143,7 +153,7 @@ export default function Capabilities() {
                     </div>
                     <div  className="lg:col-span-6 lg:px-auto ">
                         
-                        <h1 className="font-bold text-center  text-4xl lg:text-5xl tracking-tight">Transaction Focus</h1>
+                        {/* <h1 className="font-bold text-center  text-4xl lg:text-5xl tracking-tight">Transaction Focus</h1>
                     <Image
                               src="/images/commitment4.png"
                               alt="Picture of the author"
@@ -151,7 +161,7 @@ export default function Capabilities() {
                               height={400}
                               className="lg:ml-16"
                               />
-                
+                 */}
                     </div>
 
 

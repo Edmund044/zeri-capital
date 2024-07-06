@@ -20,30 +20,30 @@ export default function Team() {
                 classHeading="text-5xl text-center font-bold font-heading text-accent md:text-5xl"
                 contents={
                     [
-                        { image: "/images/vision.png",
+                        { image: "/images/ronald.jpeg",
                           name: "Ronald Ouma", 
                           title: "Chief Executive Officer.", 
                           social_media:{
                             linkedin: "https://www.linkedin.com/in/ronaldouma/"} 
                           },
-                          { image: "/images/vision.png",
-                          name: "Ronald Ouma", 
-                          title: "Chief Executive Officer.", 
-                          social_media:{
-                            linkedin: "https://www.linkedin.com/in/ronaldouma/"} 
-                          },
-                          { image: "/images/vision.png",
-                          name: "Ronald Ouma", 
-                          title: "Chief Executive Officer.", 
-                          social_media:{
-                            linkedin: "https://www.linkedin.com/in/ronaldouma/"} 
-                          },
-                          { image: "/images/vision.png",
-                          name: "Ronald Ouma", 
-                          title: "Chief Executive Officer.", 
-                          social_media:{
-                            linkedin: "https://www.linkedin.com/in/ronaldouma/"} 
-                          },
+                          // { image: "/images/vision.png",
+                          // name: "Ronald Ouma", 
+                          // title: "Chief Executive Officer.", 
+                          // social_media:{
+                          //   linkedin: "https://www.linkedin.com/in/ronaldouma/"} 
+                          // },
+                          // { image: "/images/vision.png",
+                          // name: "Ronald Ouma", 
+                          // title: "Chief Executive Officer.", 
+                          // social_media:{
+                          //   linkedin: "https://www.linkedin.com/in/ronaldouma/"} 
+                          // },
+                          // { image: "/images/vision.png",
+                          // name: "Ronald Ouma", 
+                          // title: "Chief Executive Officer.", 
+                          // social_media:{
+                          //   linkedin: "https://www.linkedin.com/in/ronaldouma/"} 
+                          // },
                     
                       ]
                 }

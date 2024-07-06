@@ -23,7 +23,7 @@ export default function CardWithNoimage(props) {
     {
               props.contents.map((value,index,array)=>{
                 return (
-                    <div className="mb-8">
+                    <div  key={index} className="mb-8">
                          <div>
 
                           <h2 className={props.cardClassHeading}>{value.title}</h2>
