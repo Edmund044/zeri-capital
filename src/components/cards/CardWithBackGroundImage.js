@@ -21,7 +21,7 @@ export default function CardWithBackGroundImage(props) {
               </button>
             </div>
             <img
-              className="max-h-[160px]  md:max-h-[400px] w-full object-cover rounded-xl"
+              className="max-h-[300px]  md:max-h-[400px] w-full object-contain rounded-xl"
               src={event.image}
               alt="/"
             ></img>

@@ -5,7 +5,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 export default function HeroSectionHorizontalScrollCard(props) {
   const responsive = [1,2,3]
     return ( 
-<div className="bg-white m-auto p-auto">
+<div className="m-auto p-auto">
 <h1
         className="max-w-2xl lg:text-5xl text-4xl font-heading mx-8 font-extrabold mb-6 font-body lg:mb-8 lg:mx-48"
       >

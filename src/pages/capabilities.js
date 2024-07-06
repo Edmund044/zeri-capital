@@ -11,6 +11,8 @@ import CardWithImage from "@/components/cards/CardWithImage";
 import HeroSectionHorizontalScrollCard from "@/components/heros/HeroSectionHorizontalScrollCard";
 import HeroSectionImageInGrid from "@/components/heros/HeroSectionImageInGrid";
 import Image from 'next/image'
+import HeroSectionWithVerticalCardsAndLogo from "@/components/heros/HeroSectionWithVerticalCardsAndLogo";
+import CardWithNoimage from "@/components/cards/CardWithNoimage";
 export default function Capabilities() {
     return ( 
         <div className="bg-white">
@@ -24,10 +26,10 @@ export default function Capabilities() {
         <CardWithBackGroundImage
             heading="I.INVESTMENT BANKING"
             contents={[
-                { image: "/images/zeri_capital_blue.png",
+                { image: "/images/gtc.jpeg",
                   title: "Capital raising.", 
                   },
-                  { image: "/images/zeri_light_blue.png",
+                  { image: "/images/gtc.jpeg",
                   title: "Mergers & acquisition.", 
                   },
                   { image: "/images/zeri_capital_gray.png",
@@ -74,15 +76,15 @@ export default function Capabilities() {
           cardHeading="Financial Services"
           cardHeadingClass="text-4xl font-extrabold text-white"
         />
-        <HeroWithVideo
+        {/* <HeroWithVideo
         video="/images/vision.png"
-        />
-        <HeroSectionWithCardsAndLogo
+        /> */}
+        <HeroSectionWithVerticalCardsAndLogo
       heading="Creating value that endures for the long term"
       subheading1="We understand what it takes to build strong foundations, create growth and generate results. We are committed to ensuring our clients' long-term success."
       sectionClass="bg-accent text-white"
-      cardClassHeading="mt-4 text-3xl font-bold ml-12 text-gray-700 text-white text-center font-heading"
-      cardClassSubHeading="mt-1 text-center mx-12 text-xl text-white"
+      cardClassHeading="mt-4 text-3xl font-bold text-gray-700 text-white font-heading"
+      cardClassSubHeading="mt-1 text-xl text-white"
       cardClassBackground="mt-8  bg-[url('/images/card_background10.png')] grid grid-cols-1 lg:gap-48 md:grid-cols-2 lg:grid-cols-2"
       contents={[
         {
@@ -154,6 +156,33 @@ export default function Capabilities() {
 
 
     </div>
+    <CardWithNoimage
+      heading="TRANSACTION FOCUS"
+      gridClass="mt-8 lg:mx-24 mx-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4"
+      subheading1=""
+      sectionClass="bg-accent text-white"
+      cardClassHeading="mt-4 text-4xl font-bold text-gray-700 text-white font-heading"
+      cardClassSubHeading="mt-1 text-2xl text-white"
+      cardClassBackground="mt-8  bg-[url('/images/card_background10.png')] grid grid-cols-1 lg:gap-48 md:grid-cols-2 lg:grid-cols-2"
+      contents={[
+        {
+          title: "INDUSTRIES", 
+          subheading: "Sector Agnostic"
+          },
+          {      
+            title: "DEAL TYPE", 
+            subheading: "ACROSS ALL DEAL TYPE"
+          },
+          { 
+            title: "TICKET SIZE", 
+            subheading: "$ 1M - 500M"
+          },
+          { 
+            title: "SWEET POINT", 
+            subheading: "$ 5M - 500M"
+          },
+      ]}
+    />
       
       <HeroSectionWithBlockImage
         heading="Our Footprint"
