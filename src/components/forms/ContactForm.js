@@ -5,7 +5,7 @@ export default function ContactForm() {
 
 <section className="bg-background dark:bg-gray-900">
 <div className="grid max-w-screen-xl px-4 py-12 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-    <div className="mr-auto  lg:col-span-6">
+    <div className=" lg:col-span-6">
     {/* <Image
       src="/images/gtc.jpeg.png"
       alt="Picture of the author"
@@ -14,7 +14,7 @@ export default function ContactForm() {
 
     /> */}
     <img
-              className="lg:h-[500px] object-cover lg:w-[500px]"
+              className="lg:h-[500px] object-cover lg:ml-32  lg:w-[500px]"
               src="/images/gtc.jpeg"
               alt="/"
             ></img>

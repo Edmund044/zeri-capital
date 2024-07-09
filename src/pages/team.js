@@ -13,6 +13,7 @@ export default function Team() {
               heading="Relationships nurture success"
               description="Zerians are professionals who are purpose led and mission driven to accelerate the growth of Africa’s most impactful businesses. We value every Zerian for we believe they are our most important asset. "
               jumboTronClass="bg-cover bg-no-repeat bg-[url('/images/team.jpeg')] bg-gray-800 bg-blend-multiply"
+              type="2"
             />
             
             <CardWithImage

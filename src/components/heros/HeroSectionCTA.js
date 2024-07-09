@@ -5,13 +5,13 @@ export default function HeroSectionCTA(props) {
     return ( 
         <main className="">
 <section className={props.backGroundColor}>
-  <div className="p-8 md:p-12 lg:px-16 lg:mt-20 lg:py-44">
+  <div className="p-8 md:p-12 lg:px-16 lg:mt-20">
     <div className="">
       <h2 className="lg:text-5xl text-3xl text-center font-bold font-heading text-accent md:text-5xl">
        {props.heading}
       </h2>
 
-      <p className="lg:text-2xl text-xl text-center text-gray-600 sm:mt-4 sm:block font-body lg:ml-44 lg:mr-32 md:mx-12">
+      <p className="lg:text-2xl text-xl text-center text-gray-600 sm:mt-4 sm:block font-body md:mx-12">
       {props.subheading}
       </p>
     </div>

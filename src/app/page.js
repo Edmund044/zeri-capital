@@ -49,7 +49,7 @@ export default function Home() {
             sectionClass="bg-white"
             cardClassHeading="mt-4 lg:text-4xl text-3xl  font-bold lg:ml-12 text-gray-700 text-extrabold text-left font-heading"
             cardClassSubHeading="mt-1 lg:text-left lg:mx-12 text-xl text-black"
-            cardClassBackground="mt-8  bg-[url('/images/card_background_v2.png')] grid grid-cols-1 lg:gap-48 md:grid-cols-2 lg:grid-cols-2"
+            cardClassBackground="mt-8 bg-[url('/images/card_background_v2.png')] grid grid-cols-1 lg:gap-48 md:grid-cols-2 lg:grid-cols-2"
             contents={[
               {
                 title: "Excellence", 

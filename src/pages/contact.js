@@ -16,6 +16,7 @@ export default function ContactUs() {
           heading="We'd love to hear from you."
           description="Do you want to start a project, join the team or just say hi? Get in touch through any of the channels below. We’d love to hear from you."
           jumboTronClass="bg-cover bg-no-repeat bg-[url('/images/gtc.jpeg')] bg-gray-800 bg-blend-multiply"
+          type="2"
         />
             <ContactForm/>
             <HeroSectionWithCards heading="Corporate Emails"/>

@@ -19,9 +19,10 @@ export default function Capabilities() {
         <Topnavigation/>
         <HeroSectionWithBackGroundImage
               heading="Advising the ambitious"
-              description="We advise Companies, Governements, Investors, and Fund managers on their most important fianancial stategic matters,s erving as trusted advisor whose sole mission is to ensure the best results for their clients."
+              description="We advise Companies, Governements, Investors, and Fund managers on their most important financial stategic matters,serving as trusted advisor whose sole mission is to ensure the best results for their clients."
               buttonText="Our Capabilities"
               jumboTronClass="bg-cover bg-no-repeat bg-[url('/images/gtc.jpeg')] bg-gray-800 bg-blend-multiply"
+              type="2"
             />
         <CardWithBackGroundImage
             heading="I.INVESTMENT BANKING"
@@ -66,7 +67,7 @@ export default function Capabilities() {
                   },
               ]}
         />
-        <HeroSectionHorizontalScrollCard
+        {/* <HeroSectionHorizontalScrollCard
           heading="Industries"
           subheading="We are sector agnostic though largely provide advice and understanding in sectors that have high impact:"
           description="We are deeply passionate about the success of the African Entrepreneur. Our commitment to supporting and helping them and the communities they operate in never wavers."
@@ -75,7 +76,7 @@ export default function Capabilities() {
           headingClass="max-w-2xl mb-4 mx-24 text-5xl font-extrabold font-heading tracking-tight text-accent leading-none md:text-5xl xl:text-6xl dark:text-white"
           cardHeading="Financial Services"
           cardHeadingClass="text-4xl font-extrabold text-white"
-        />
+        /> */}
         {/* <HeroWithVideo
         video="/images/vision.png"
         /> */}
@@ -105,7 +106,7 @@ export default function Capabilities() {
           },
       ]}
       />
-          <div className="grid px-4 py-8 mx-auto bg-white xl:gap-0 lg:py-16 lg:grid-cols-12">
+          <div className="grid px-4 py-20 mx-auto bg-white xl:gap-0 lg:py-16 lg:grid-cols-12">
 
                     <div  className="lg:col-span-6 lg:px-auto ">
                         
@@ -152,6 +153,33 @@ export default function Capabilities() {
                 
                     </div>
                     <div  className="lg:col-span-6 lg:px-auto ">
+                    <CardWithNoimage
+      heading="TRANSACTION FOCUS"
+      gridClass="mt-8 lg:mx-8 mx-2 grid grid-cols-1 gap-2 md:grid-cols-2 lg:grid-cols-2"
+      subheading1=""
+      sectionClass="bg-accent h-full text-white"
+      cardClassHeading="mt-4 text-4xl font-bold text-gray-700 text-white font-heading"
+      cardClassSubHeading="mt-1 text-2xl text-white"
+      cardClassBackground="mt-8  bg-[url('/images/card_background10.png')] grid grid-cols-1 lg:gap-48 md:grid-cols-2 lg:grid-cols-2"
+      contents={[
+        {
+          title: "INDUSTRIES", 
+          subheading: "Sector Agnostic"
+          },
+          {      
+            title: "DEAL TYPE", 
+            subheading: "ACROSS ALL DEAL TYPE"
+          },
+          { 
+            title: "TICKET SIZE", 
+            subheading: "$ 1M - 500M"
+          },
+          { 
+            title: "SWEET POINT", 
+            subheading: "$ 5M - 500M"
+          },
+      ]}
+    />
                         
                         {/* <h1 className="font-bold text-center  text-4xl lg:text-5xl tracking-tight">Transaction Focus</h1>
                     <Image
@@ -166,7 +194,7 @@ export default function Capabilities() {
 
 
     </div>
-    <CardWithNoimage
+    {/* <CardWithNoimage
       heading="TRANSACTION FOCUS"
       gridClass="mt-8 lg:mx-24 mx-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4"
       subheading1=""
@@ -192,7 +220,7 @@ export default function Capabilities() {
             subheading: "$ 5M - 500M"
           },
       ]}
-    />
+    /> */}
       
       <HeroSectionWithBlockImage
         heading="Our Footprint"

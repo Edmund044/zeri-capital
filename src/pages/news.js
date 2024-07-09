@@ -15,6 +15,7 @@ export default function news() {
             <HeroSectionWithBackGroundImage
               heading="News & Events"
               jumboTronClass="bg-cover bg-no-repeat bg-[url('/images/gtc.jpeg')] bg-gray-800 bg-blend-multiply"
+              type="2"
             />
             <CardWithBackGroundImage
              heading="Zeri News"
