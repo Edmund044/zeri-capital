@@ -221,20 +221,24 @@ export default function Capabilities() {
       />
           <div className="grid px-4 py-20 mx-auto bg-white xl:gap-0 lg:py-16 lg:grid-cols-12">
 
-                    <div  className="lg:col-span-6 lg:px-auto ">
+                    <div  className="lg:col-span-6">
                         
-                        <h1 className="font-bold text-center text-3xl flex lg:text-5xl tracking-tight"> <img src="/images/zeri_logo.jpeg" className="lg:w-12 w-12 flex-1 object-cover" />Commitments by Ticket Size</h1>
+                    <h1 className="font-bold text-center text-3xl flex lg:text-4xl tracking-tight"><img className="lg:w-[80px] -mr-4" src="/images/blue_logo_1.png" alt="/"
+            ></img><span className="mt-4">Commitments by Ticket Size</span></h1>
 
       <div style={{ width: '400px', height: '400px' }} className="lg:ml-32">
       <Doughnut data={data} />
     </div> 
-    <div className="bg-gray-100 lg:py-8 mx-auto">
-      <p className="lg:ml-48 lg:mb-4 flex"><img src="/images/zeri_logo.jpeg" className="lg:w-[12px] w-12 flex-grow object-cover" />$1M - $10M</p>
-      <p className="lg:ml-48 lg:mb-4"><img src="/images/zeri_logo.jpeg" className="lg:w-12 w-12 flex-1 object-cover" />$10M - $30M</p>
-      <p className="lg:ml-48 lg:mb-4"><img src="/images/zeri_logo.jpeg" className="lg:w-12 w-12 flex-1 object-cover" />$30M - $150M</p>
-      <p className="lg:ml-48 lg:mb-4"><img src="/images/zeri_logo.jpeg" className="lg:w-12 w-12 flex-1 object-cover" />$150M+</p>
-      
-      </div>                                 
+    <div className="bg-gray-100 lg:py-8">
+                          <p className="lg:ml-48  lg:mb-4 flex"><img className="lg:w-[60px]" src="/images/blue_logo_1.png" alt="/"
+            ></img><span className="mt-4 -ml-4">$1M - $10M</span></p>
+                          <p className="lg:ml-48 -mt-8 lg:mb-4 flex"><img className="lg:w-[60px]" src="/images/grey.png" alt="/"
+            ></img><span className="mt-4 -ml-4">$10M - $30M</span></p>
+                                      <p className="lg:ml-48 -mt-8 lg:mb-4 flex"><img className="lg:w-[60px]" src="/images/light_blue_logo.png" alt="/"
+            ></img><span className="mt-4 -ml-4">$30M - $150M</span></p>
+                                                  <p className="lg:ml-48 -mt-8 lg:mb-4 flex"><img className="lg:w-[60px]" src="/images/light_blue_logo.png" alt="/"
+            ></img><span className="mt-4 -ml-4">$150M+</span></p>
+                          </div> 
                                           {/* <img
               className="lg:h-[950px] lg:w-[1048px]"
               src="/images/commitment_1.png"
@@ -244,14 +248,18 @@ export default function Capabilities() {
                     </div>
                     <div  className="lg:col-span-6">
                         
-                        <h1 className="font-bold text-center text-3xl flex lg:text-5xl tracking-tight"><img src="/images/zeri_logo.jpeg" className="lg:h-12 h-12 flex-1 object-cover" />Commitments by Investor Type</h1>
+                        <h1 className="font-bold text-center text-3xl flex lg:text-4xl tracking-tight"><img className="lg:w-[80px] -mr-4" src="/images/blue_logo_1.png" alt="/"
+            ></img><span className="mt-4">Commitments by Investor Type</span></h1>
                         <div style={{ width: '400px', height: '400px' }} className="lg:ml-32">
                           <Doughnut data={data2} />
                         </div>  
                         <div className="bg-gray-100 lg:py-8 h-full">
-                          <p className="lg:ml-48 lg:mb-4">Private Instituitons</p>
-                          <p className="lg:ml-48 lg:mb-4">Family Offices</p>
-                          <p className="lg:ml-48 lg:mb-4">SWF/Governments Instituitons</p>
+                          <p className="lg:ml-48 lg:mb-4 inline-flex"> <img className="lg:w-[60px]" src="/images/blue_logo_1.png" alt="/"
+            ></img><span className="mt-4 -ml-4">Private Instituitons</span></p>
+                          <p className="lg:ml-48 -mt-8 lg:mb-4 inline-flex"><img className="lg:w-[60px]" src="/images/grey.png" alt="/"
+            ></img><span className="mt-4 -ml-4">Family Offices</span></p>
+                          <p className="lg:ml-48 -mt-8 lg:mb-4 inline-flex"><img className="lg:w-[60px]" src="/images/light_blue_logo.png" alt="/"
+            ></img><span className="mt-4 -ml-4">SWF/Governments Instituitons</span></p>
                           </div>                              
                                                          
                                                            {/* <img
@@ -260,7 +268,7 @@ export default function Capabilities() {
               alt="/"
             ></img> */}
                     </div>
-                    <div  className="lg:col-span-6 lg:px-auto ">
+                    <div  className="lg:col-span-6">
                         
                         <h1 className="font-bold text-center  text-4xl lg:text-5xl tracking-tight">Companies we work with</h1>
                     <Image
