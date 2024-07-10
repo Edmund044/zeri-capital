@@ -25,7 +25,7 @@ export default function Home() {
           description="We believe every Zerian has the capacity for excellence, integrity, passion and curiosity for service to the Entrepreneur and their businesses, so we leave no one behind for every day is day one"
           picture="/images/zeri_logo_v4.jpeg"
           sectionClass="bg-accent text-white dark:bg-gray-900 lg:py-4"
-          headingClass="lg:ml-40 mb-4 lg:text-4xl font-extrabold font-heading tracking-tight text-white leading-none md:text-5xl xl:text-4xl dark:text-white"
+          headingClass="lg:ml-44 mb-4 lg:text-4xl font-extrabold font-heading tracking-tight text-white leading-none md:text-5xl xl:text-4xl dark:text-white"
           />
         <HeroSectionWithImageLeft
           heading="OUR PURPOSE"
@@ -33,7 +33,7 @@ export default function Home() {
           description="We are deeply passionate about the success of the African Entrepreneur. Our commitment to supporting and helping them and the communities they operate in never wavers."
           picture="/images/zeri_logo_v4.jpeg"
           sectionClass="bg-accent text-white dark:bg-gray-900 lg:py-4"
-           headingClass="lg:ml-40 mb-4 lg:text-4xl font-extrabold font-heading tracking-tight text-white leading-none md:text-5xl xl:text-4xl dark:text-white"
+           headingClass="lg:ml-44 mb-4 lg:text-4xl font-extrabold font-heading tracking-tight text-white leading-none md:text-5xl xl:text-4xl dark:text-white"
          />
         <HeroSectionWithImageOverlay
            heading="OUR MISSION"
@@ -41,13 +41,15 @@ export default function Home() {
            description="We strongly believe that sustainable growth can lead to the advancement of African economies thereby solving the important twin issues of unemployment and underemployment. Our obsession therefore, is to midwife the growth and success of impactful Businesses in Africa."
            picture="/images/zeri_logo_v4.jpeg"
            sectionClass="bg-accent text-white dark:bg-gray-900 lg:py-4"
-           headingClass="lg:ml-40 mb-4 lg:text-4xl font-extrabold font-heading tracking-tight text-white leading-none md:text-5xl xl:text-4xl dark:text-white"
+           headingClass="lg:ml-44 mb-4 lg:text-4xl font-extrabold font-heading tracking-tight text-white leading-none md:text-5xl xl:text-4xl dark:text-white"
         />
         <HeroSectionWithCardsAndLogo
             heading="Our Values"
             subheading1="In Pursuit of our shared vision, we aim to be EPIC."
             sectionClass="bg-white"
-            cardClassHeading="mt-4 lg:text-4xl text-3xl  font-bold lg:ml-12 text-gray-700 text-extrabold text-left font-heading"
+            classHeading="mb-4 text-3xl lg:text-4xl font-extrabold font-heading md:text-5xl xl:text-5xl text-center"
+            classSubHeading1="mb-6 font-body ml-2 text-xl lg:text-3xl lg:mb-8 "
+            cardClassHeading="mt-4 lg:text-4xl text-3xl  font-bold lg:ml-12 text-black text-extrabold text-left font-heading"
             cardClassSubHeading="mt-1 lg:text-left lg:mx-12 text-xl text-black"
             cardClassBackground="mt-8 bg-[url('/images/card_background_v2.png')] grid grid-cols-1 lg:gap-48 md:grid-cols-2 lg:grid-cols-2"
             contents={[

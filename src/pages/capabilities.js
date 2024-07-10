@@ -256,7 +256,7 @@ export default function Capabilities() {
                         <div className="bg-gray-100 lg:py-8 h-full">
                           <p className="lg:ml-48 lg:mb-4 inline-flex"> <img className="lg:w-[60px]" src="/images/blue_logo_1.png" alt="/"
             ></img><span className="mt-4 -ml-4">Private Instituitons</span></p>
-                          <p className="lg:ml-48 -mt-8 lg:mb-4 inline-flex"><img className="lg:w-[60px]" src="/images/grey.png" alt="/"
+                          <p className="lg:ml-48 -mt-8 lg:mb-4 flex"><img className="lg:w-[60px]" src="/images/grey.png" alt="/"
             ></img><span className="mt-4 -ml-4">Family Offices</span></p>
                           <p className="lg:ml-48 -mt-8 lg:mb-4 inline-flex"><img className="lg:w-[60px]" src="/images/light_blue_logo.png" alt="/"
             ></img><span className="mt-4 -ml-4">SWF/Governments Instituitons</span></p>
