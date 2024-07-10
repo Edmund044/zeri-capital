@@ -13,6 +13,66 @@ import HeroSectionImageInGrid from "@/components/heros/HeroSectionImageInGrid";
 import Image from 'next/image'
 import HeroSectionWithVerticalCardsAndLogo from "@/components/heros/HeroSectionWithVerticalCardsAndLogo";
 import CardWithNoimage from "@/components/cards/CardWithNoimage";
+import dynamic from 'next/dynamic';
+import 'chart.js/auto';
+const Doughnut = dynamic(() => import('react-chartjs-2').then((mod) => mod.Doughnut), {
+  ssr: false,
+});
+const data = {
+  datasets: [
+    {
+      labels: [
+        '$1M - $10M',
+        '$10M - $30M',
+        '$30M - $150M',
+        '$150M+'
+      ],
+      data: [19, 12, 7, 5],
+      backgroundColor: [
+        'rgba(31, 56, 100, 1)',
+        'rgba(165, 165, 165, 1)',
+        'rgba(6, 176, 240, 1)',
+        'rgba(104, 197, 235, 1)',
+      ],
+      borderColor: [
+        'rgba(0, 0, 0, 0.1)',
+        'rgba(0, 0, 0,0.1)',
+        'rgba(0, 0, 0,0.1)',
+        'rgba(0, 0, 0, 0.1)',
+      ],
+      borderWidth: 1,
+    },
+  ],
+  options:{ 
+    cutout: '40%',
+    radius: '50%',}
+};
+const data2 = {
+  datasets: [
+    {
+      labels: [
+        'Private Instituitons',
+        'Family Offices',
+        'SWF/Governments Instituitons',
+      ],
+      data: [15,8,7],
+      backgroundColor: [
+        'rgba(31, 56, 100, 1)',
+        'rgba(165, 165, 165, 1)',
+        'rgba(104, 197, 235, 1)',
+      ],
+      borderColor: [
+        'rgba(0, 0, 0, 0.1)',
+        'rgba(0, 0, 0,0.1)',
+        'rgba(0, 0, 0, 0.1)',
+      ],
+      borderWidth: 1,
+    },
+  ],
+  options:{ 
+    cutout: '40%',
+    radius: '50%',}
+};
 export default function Capabilities() {
     return ( 
         <div className="bg-white">
@@ -67,6 +127,59 @@ export default function Capabilities() {
                   },
               ]}
         />
+        <HeroSectionWithCardsAndLogo
+      heading="INDUSTRIES"
+      subheading1="We are sector agnostic though largely provide advice and understanding in sectors that have high impact."
+      subheading2=""
+      classHeading="mb-4 text-3xl lg:text-4xl text-white font-extrabold font-heading md:text-5xl xl:text-5xl text-center"
+      classSubHeading1="mb-6 font-body text-white ml-2 text-xl lg:text-3xl lg:mb-8 "
+      sectionClass="bg-accent"
+      cardClassHeading="mt-4 text-3xl font-bold ml-12 text-gray-700 text-white text-center font-heading"
+      cardClassSubHeading="mt-1 text-center lg:mx-12 text-xl text-white"
+      cardClassBackground="mt-8 bg-accent grid grid-cols-1 lg:gap-4 md:grid-cols-2 lg:grid-cols-3"
+      contents={[
+        {
+          title: "Financial Services.", 
+          subheading: ""
+          },
+          {      
+            title: "Manufacturing.", 
+            subheading: ""
+          },
+          { 
+            title: "Agriculture, Agri-business, and Agro-processing.", 
+            subheading: ""
+          },
+          { 
+            title: "FMCG and Retail Services.", 
+            subheading: ""
+          },
+          {
+            title: "Education Services.", 
+            subheading: ""
+            },
+            {      
+              title: "Real Estate and Housing. ", 
+              subheading: ""
+            },
+            { 
+              title: "Technology, Media & Telecommunications", 
+              subheading: ""
+            },
+            { 
+              title: "Energy & Mining.", 
+              subheading: ""
+            },
+            { 
+              title: "Food and Beverage", 
+              subheading: ""
+            },
+            { 
+              title: "Hospitality and Tourism..", 
+              subheading: ""
+            },
+      ]}
+      />
         {/* <HeroSectionHorizontalScrollCard
           heading="Industries"
           subheading="We are sector agnostic though largely provide advice and understanding in sectors that have high impact:"
@@ -110,36 +223,42 @@ export default function Capabilities() {
 
                     <div  className="lg:col-span-6 lg:px-auto ">
                         
-                        <h1 className="font-bold text-center text-4xl lg:text-5xl tracking-tight">Commitments by Ticket Size</h1>
-                    {/* <Image
-                              src="/images/commitment_1.png"
-                              alt="Picture of the author"
-                              width={1000} 
-                              height={400}
-                              /> */}
-                                          <img
+                        <h1 className="font-bold text-center text-3xl flex lg:text-5xl tracking-tight"> <img src="/images/zeri_logo.jpeg" className="lg:w-12 w-12 flex-1 object-cover" />Commitments by Ticket Size</h1>
+
+      <div style={{ width: '400px', height: '400px' }} className="lg:ml-32">
+      <Doughnut data={data} />
+    </div> 
+    <div className="bg-gray-100 lg:py-8 mx-auto">
+      <p className="lg:ml-48 lg:mb-4 flex"><img src="/images/zeri_logo.jpeg" className="lg:w-[12px] w-12 flex-grow object-cover" />$1M - $10M</p>
+      <p className="lg:ml-48 lg:mb-4"><img src="/images/zeri_logo.jpeg" className="lg:w-12 w-12 flex-1 object-cover" />$10M - $30M</p>
+      <p className="lg:ml-48 lg:mb-4"><img src="/images/zeri_logo.jpeg" className="lg:w-12 w-12 flex-1 object-cover" />$30M - $150M</p>
+      <p className="lg:ml-48 lg:mb-4"><img src="/images/zeri_logo.jpeg" className="lg:w-12 w-12 flex-1 object-cover" />$150M+</p>
+      
+      </div>                                 
+                                          {/* <img
               className="lg:h-[950px] lg:w-[1048px]"
               src="/images/commitment_1.png"
               alt="/"
-            ></img>
+            ></img> */}
                 
                     </div>
-                    <div  className="lg:col-span-6 lg:px-auto ">
+                    <div  className="lg:col-span-6">
                         
-                        <h1 className="font-bold text-center  text-4xl lg:text-5xl tracking-tight">Commitments by Investor Type</h1>
-                    {/* <Image
-                              src="/images/commitment_2.png"
-                              alt="Picture of the author"
-                              width={600} 
-                              height={900}
-                              className="mt-2"
-                              />
-                 */}
-                                                           <img
+                        <h1 className="font-bold text-center text-3xl flex lg:text-5xl tracking-tight"><img src="/images/zeri_logo.jpeg" className="lg:h-12 h-12 flex-1 object-cover" />Commitments by Investor Type</h1>
+                        <div style={{ width: '400px', height: '400px' }} className="lg:ml-32">
+                          <Doughnut data={data2} />
+                        </div>  
+                        <div className="bg-gray-100 lg:py-8 h-full">
+                          <p className="lg:ml-48 lg:mb-4">Private Instituitons</p>
+                          <p className="lg:ml-48 lg:mb-4">Family Offices</p>
+                          <p className="lg:ml-48 lg:mb-4">SWF/Governments Instituitons</p>
+                          </div>                              
+                                                         
+                                                           {/* <img
               className="lg:h-[950px] lg:w-[1048px]"
               src="/images/commitment_2.png"
               alt="/"
-            ></img>
+            ></img> */}
                     </div>
                     <div  className="lg:col-span-6 lg:px-auto ">
                         

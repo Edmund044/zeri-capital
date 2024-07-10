@@ -27,6 +27,8 @@ export default function Career() {
       heading="Our Culture is about Our People"
       subheading1="The foundation of our culture is built on our core values.These values serve as the bedrock of our organization, inspiring us to excel and uphold the highest standards of integrity,innovation,and client satisfaction."
       subheading2="The Zerian values not only define our culture but also form the essence of why we do wht we do - To exist for th entrepreneur and accelerate the growth of Africa's most business."
+      classHeading="mb-4 text-3xl lg:text-4xl font-extrabold font-heading md:text-5xl xl:text-5xl text-center"
+      classSubHeading1="mb-6 font-body ml-2 text-xl lg:text-3xl lg:mb-8 "
       sectionClass="bg-gray-100"
       cardClassHeading="mt-4 text-3xl font-bold ml-12 text-gray-700 text-white text-center font-heading"
       cardClassSubHeading="mt-1 text-center lg:mx-12 text-xl text-white"

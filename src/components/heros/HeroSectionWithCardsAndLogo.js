@@ -7,9 +7,9 @@ export default function HeroSectionWithCardsAndLogo(props) {
 <section className={props.sectionClass}>
 <div className="px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
   <div className="text-center">
-    <h1 className=" mb-4 text-3xl lg:text-4xl font-extrabold font-heading md:text-5xl xl:text-5xl text-center">{props.heading}</h1>
+    <h1 className={props.classHeading}>{props.heading}</h1>
 
-    <p className="mb-6 font-body ml-2 text-xl lg:text-3xl lg:mb-8 ">
+    <p className={props.classSubHeading1}>
       {props.subheading1}
     </p>
     <p className="mb-6 font-body ml-2 text-xl lg:text-3xl lg:mb-8 ">
