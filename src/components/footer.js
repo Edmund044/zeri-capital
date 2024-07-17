@@ -1,7 +1,7 @@
 
 export default function Footer() {
     return ( 
-        <main className="">
+        <main className="font-heading">
 
 
 <footer className="bg-cover bg-no-repeat bg-[url('/images/gtc.jpeg')] bg-gray-700 bg-blend-multiply">

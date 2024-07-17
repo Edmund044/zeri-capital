@@ -20,22 +20,22 @@ export default function Topnavigation() {
     <div className="hidden w-full md:block md:w-auto" id="navbar-default">
       <ul className="font-medium  flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-background dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
         <li>
-          <a onClick={() => router.push('/capabilities')} className="block py-2 px-3  text-black bg-background rounded md:hover:text-blue-700" aria-current="page">Our Capabilities</a>
+          <a onClick={() => router.push('/capabilities')} className="block py-2 px-3 font-heading text-black bg-background rounded md:hover:text-blue-700" aria-current="page">Our Capabilities</a>
         </li>
         <li>
-          <a onClick={() => router.push('/team')} className="block py-2 px-3  text-black bg-background rounded md:hover:text-blue-700">Our Team</a>
+          <a onClick={() => router.push('/team')} className="block py-2 px-3 font-heading text-black bg-background rounded md:hover:text-blue-700">Our Team</a>
         </li>
         <li>
-          <a onClick={() => router.push('/career')} className="block py-2 px-3  text-black bg-background rounded md:hover:text-blue-700">Careers</a>
+          <a onClick={() => router.push('/career')} className="block py-2 px-3 font-heading text-black bg-background rounded md:hover:text-blue-700">Careers</a>
         </li>
         <li>
-          <a onClick={() => router.push('/insights')} className="block py-2 px-3  text-black bg-background rounded md:hover:text-blue-700">Insights</a>
+          <a onClick={() => router.push('/insights')} className="block py-2 px-3 font-heading text-black bg-background rounded md:hover:text-blue-700">Insights</a>
         </li>
         <li>
-          <a onClick={() => router.push('/news')} className="block py-2 px-3  text-black bg-background rounded md:hover:text-blue-700">News & Events</a>
+          <a onClick={() => router.push('/news')} className="block py-2 px-3 font-heading text-black bg-background rounded md:hover:text-blue-700">News & Events</a>
         </li>
         <li>
-          <a onClick={() => router.push('/contact')} className="block py-2 px-3  text-black bg-background rounded md:hover:text-blue-700">Contact Us</a>
+          <a onClick={() => router.push('/contact')} className="block py-2 px-3 font-heading text-black bg-background rounded md:hover:text-blue-700">Contact Us</a>
         </li>
       </ul>
     </div>

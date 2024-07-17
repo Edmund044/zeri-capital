@@ -15,7 +15,7 @@ export default function ContactUs() {
             <HeroSectionWithBackGroundImage
           heading="We'd love to hear from you."
           description="Do you want to start a project, join the team or just say hi? Get in touch through any of the channels below. We’d love to hear from you."
-          jumboTronClass="bg-cover bg-no-repeat bg-[url('/images/gtc.jpeg')] bg-gray-800 bg-blend-multiply"
+          jumboTronClass="bg-cover font-heading bg-no-repeat bg-[url('/images/gtc.jpeg')] bg-gray-800 bg-blend-multiply"
           type="2"
         />
             <ContactForm/>
@@ -26,7 +26,7 @@ export default function ContactUs() {
            subheading="On the latest thought leadership and news from Zeri, please subscribe."
            buttonText="Let's learn"
            type="2"
-           backGroundColor="bg-gray-100"
+           backGroundColor="bg-gray-100 font-heading"
        />
             <Footer/>
         </main>    

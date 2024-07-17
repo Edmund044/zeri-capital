@@ -15,7 +15,7 @@ export default function Career() {
     <HeroSectionWithBackGroundImage
       heading="Transform Your Future"
       description="At Zeri, we provide great opportunities for the exceptionally talented individuals desiring to build their future in a culture that values excellence, teamwork and passion while rewarding individual achievements.We value and cherish every Zerian."
-      jumboTronClass="bg-cover bg-no-repeat bg-[url('/images/career.jpeg')] bg-gray-800 bg-blend-multiply"
+      jumboTronClass="bg-cover font-heading bg-no-repeat bg-[url('/images/career.jpeg')] bg-gray-800 bg-blend-multiply"
       type="2"
     />
 
@@ -27,12 +27,12 @@ export default function Career() {
       heading="Our Culture is about Our People"
       subheading1="The foundation of our culture is built on our core values.These values serve as the bedrock of our organization, inspiring us to excel and uphold the highest standards of integrity,innovation,and client satisfaction."
       subheading2="The Zerian values not only define our culture but also form the essence of why we do wht we do - To exist for th entrepreneur and accelerate the growth of Africa's most business."
-      classHeading="mb-4 text-3xl lg:text-4xl font-extrabold font-heading md:text-5xl xl:text-5xl text-center"
-      classSubHeading1="mb-6 font-body ml-2 text-xl lg:text-3xl lg:mb-8 "
+      classHeading="mb-4 text-3xl lg:text-4xl font-bold font-heading md:text-5xl xl:text-5xl text-center"
+      classSubHeading1="mb-6 font-body ml-2 font-heading text-xl lg:text-3xl lg:mb-8 "
       sectionClass="bg-gray-100"
-      cardClassHeading="mt-4 text-3xl font-bold ml-12 text-gray-700 text-white text-center font-heading"
-      cardClassSubHeading="mt-1 text-center lg:mx-12 text-xl text-white"
-      cardClassBackground="mt-8  bg-[url('/images/card_background10.png')] grid grid-cols-1 lg:gap-48 md:grid-cols-2 lg:grid-cols-2"
+      cardClassHeading="mt-4 text-3xl font-heading font-bold ml-12 text-gray-700 text-white text-center font-heading"
+      cardClassSubHeading="mt-1 text-center font-heading lg:mx-12 text-xl text-white"
+      cardClassBackground="mt-8  bg-[url('/images/card_background10.png')] grid grid-cols-1 lg:gap-48 md:grid-cols-2 lg:grid-cols-2 font-heading"
       contents={[
         {
           title: "Excellence", 

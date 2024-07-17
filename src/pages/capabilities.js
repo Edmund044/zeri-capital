@@ -81,7 +81,7 @@ export default function Capabilities() {
               heading="Advising the ambitious"
               description="We advise Companies, Governements, Investors, and Fund managers on their most important financial stategic matters,serving as trusted advisor whose sole mission is to ensure the best results for their clients."
               buttonText="Our Capabilities"
-              jumboTronClass="bg-cover bg-no-repeat bg-[url('/images/gtc.jpeg')] bg-gray-800 bg-blend-multiply"
+              jumboTronClass="bg-cover bg-no-repeat font-heading bg-[url('/images/gtc.jpeg')] bg-gray-800 bg-blend-multiply"
               type="2"
             />
         <CardWithBackGroundImage
@@ -131,9 +131,9 @@ export default function Capabilities() {
       heading="INDUSTRIES"
       subheading1="We are sector agnostic though largely provide advice and understanding in sectors that have high impact."
       subheading2=""
-      classHeading="mb-4 text-3xl lg:text-4xl text-white font-extrabold font-heading md:text-5xl xl:text-5xl text-center"
+      classHeading="mb-4 text-3xl lg:text-4xl text-white font-bold font-heading md:text-5xl xl:text-5xl text-center"
       classSubHeading1="mb-6 font-body text-white ml-2 text-xl lg:text-3xl lg:mb-8 "
-      sectionClass="bg-accent"
+      sectionClass="bg-accent font-heading"
       cardClassHeading="mt-4 text-3xl font-bold ml-12 text-gray-700 text-white text-center font-heading"
       cardClassSubHeading="mt-1 text-center lg:mx-12 text-xl text-white"
       cardClassBackground="mt-8 bg-accent grid grid-cols-1 lg:gap-4 md:grid-cols-2 lg:grid-cols-3"
@@ -186,9 +186,9 @@ export default function Capabilities() {
           description="We are deeply passionate about the success of the African Entrepreneur. Our commitment to supporting and helping them and the communities they operate in never wavers."
           picture="/images/money.png"
           sectionClass="bg-accent text-white dark:bg-gray-900 lg:py-4"
-          headingClass="max-w-2xl mb-4 mx-24 text-5xl font-extrabold font-heading tracking-tight text-accent leading-none md:text-5xl xl:text-6xl dark:text-white"
+          headingClass="max-w-2xl mb-4 mx-24 text-5xl font-bold font-heading tracking-tight text-accent leading-none md:text-5xl xl:text-6xl dark:text-white"
           cardHeading="Financial Services"
-          cardHeadingClass="text-4xl font-extrabold text-white"
+          cardHeadingClass="text-4xl font-bold text-white"
         /> */}
         {/* <HeroWithVideo
         video="/images/vision.png"
@@ -196,7 +196,7 @@ export default function Capabilities() {
         <HeroSectionWithVerticalCardsAndLogo
       heading="Creating value that endures for the long term"
       subheading1="We understand what it takes to build strong foundations, create growth and generate results. We are committed to ensuring our clients' long-term success."
-      sectionClass="bg-accent text-white"
+      sectionClass="bg-accent text-white font-heading"
       cardClassHeading="mt-4 text-3xl font-bold text-gray-700 text-white font-heading"
       cardClassSubHeading="mt-1 text-xl text-white"
       cardClassBackground="mt-8  bg-[url('/images/card_background10.png')] grid grid-cols-1 lg:gap-48 md:grid-cols-2 lg:grid-cols-2"
@@ -226,18 +226,18 @@ export default function Capabilities() {
                     <h1 className="font-bold text-center text-3xl flex lg:text-4xl tracking-tight"><img className="lg:w-[80px] -mr-4" src="/images/blue_logo_1.png" alt="/"
             ></img><span className="mt-4">Commitments by Ticket Size</span></h1>
 
-      <div style={{ width: '400px', height: '400px' }} className="lg:ml-32">
+      <div style={{ width: '400px', height: '400px' }} className="lg:ml-32 lg:mb-20">
       <Doughnut data={data} />
     </div> 
-    <div className="bg-gray-100 lg:py-8">
+    <div className="bg-white lg:py-8">
                           <p className="lg:ml-48  lg:mb-4 flex"><img className="lg:w-[60px]" src="/images/blue_logo_1.png" alt="/"
-            ></img><span className="mt-4 -ml-4">$1M - $10M</span></p>
+            ></img><span className="mt-4 -ml-4 font-heading">$1M - $10M</span></p>
                           <p className="lg:ml-48 -mt-8 lg:mb-4 flex"><img className="lg:w-[60px]" src="/images/grey.png" alt="/"
-            ></img><span className="mt-4 -ml-4">$10M - $30M</span></p>
+            ></img><span className="mt-4 -ml-4 font-heading">$10M - $30M</span></p>
                                       <p className="lg:ml-48 -mt-8 lg:mb-4 flex"><img className="lg:w-[60px]" src="/images/light_blue_logo.png" alt="/"
-            ></img><span className="mt-4 -ml-4">$30M - $150M</span></p>
+            ></img><span className="mt-4 -ml-4 font-heading">$30M - $150M</span></p>
                                                   <p className="lg:ml-48 -mt-8 lg:mb-4 flex"><img className="lg:w-[60px]" src="/images/light_blue_logo.png" alt="/"
-            ></img><span className="mt-4 -ml-4">$150M+</span></p>
+            ></img><span className="mt-4 -ml-4 font-heading">$150M+</span></p>
                           </div> 
                                           {/* <img
               className="lg:h-[950px] lg:w-[1048px]"
@@ -250,10 +250,10 @@ export default function Capabilities() {
                         
                         <h1 className="font-bold text-center text-3xl flex lg:text-4xl tracking-tight"><img className="lg:w-[80px] -mr-4" src="/images/blue_logo_1.png" alt="/"
             ></img><span className="mt-4">Commitments by Investor Type</span></h1>
-                        <div style={{ width: '400px', height: '400px' }} className="lg:ml-32">
+                        <div style={{ width: '400px', height: '400px' }} className="lg:ml-32 lg:mb-20">
                           <Doughnut data={data2} />
                         </div>  
-                        <div className="bg-gray-100 lg:py-8 h-full">
+                        <div className="bg-white font-heading lg:py-8 h-full">
                           <p className="lg:ml-48 lg:mb-4 inline-flex"> <img className="lg:w-[60px]" src="/images/blue_logo_1.png" alt="/"
             ></img><span className="mt-4 -ml-4">Private Instituitons</span></p>
                           <p className="lg:ml-48 -mt-8 lg:mb-4 flex"><img className="lg:w-[60px]" src="/images/grey.png" alt="/"
@@ -270,7 +270,7 @@ export default function Capabilities() {
                     </div>
                     <div  className="lg:col-span-6">
                         
-                        <h1 className="font-bold text-center  text-4xl lg:text-5xl tracking-tight">Companies we work with</h1>
+                        <h1 className="font-bold text-center font-heading text-4xl lg:text-5xl tracking-tight">Companies we work with</h1>
                     <Image
                               src="/images/commitment3.png"
                               alt="Picture of the author"
@@ -284,9 +284,9 @@ export default function Capabilities() {
       heading="TRANSACTION FOCUS"
       gridClass="mt-8 lg:mx-8 mx-2 grid grid-cols-1 gap-2 md:grid-cols-2 lg:grid-cols-2"
       subheading1=""
-      sectionClass="bg-accent h-full text-white"
+      sectionClass="bg-accent h-full text-white font-heading"
       cardClassHeading="mt-4 text-4xl font-bold text-gray-700 text-white font-heading"
-      cardClassSubHeading="mt-1 text-2xl text-white"
+      cardClassSubHeading="mt-1 text-2xl text-white font-heading"
       cardClassBackground="mt-8  bg-[url('/images/card_background10.png')] grid grid-cols-1 lg:gap-48 md:grid-cols-2 lg:grid-cols-2"
       contents={[
         {

@@ -4,11 +4,11 @@ export default function HeroSectionMap() {
 <section className="bg-background dark:bg-gray-900">
 <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
     <div className="mr-auto place-self-center lg:col-span-7">
-        <h1 className="max-w-2xl mb-4 text-2xl font-extrabold text-accent font-heading tracking-tight leading-none ">Our Location</h1>
+        <h1 className="max-w-2xl mb-4 text-2xl font-bold text-accent font-heading tracking-tight leading-none ">Our Location</h1>
         <p className="max-w-2xl mb-6 font-light  lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">3rd Floor, Wing A, Keystone Park, 95 Riverside Drive, Westlands, Nairobi.</p>
-        <h1 className="max-w-2xl mb-4 text-2xl font-extrabold text-accent font-heading tracking-tight leading-none ">Visit Us</h1>
+        <h1 className="max-w-2xl mb-4 text-2xl font-bold text-accent font-heading tracking-tight leading-none ">Visit Us</h1>
         <p className="max-w-2xl font-light  lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Monday - Friday <br/> 8 AM - 5 PM EAT</p>
-        <h1 className="max-w-2xl mb-4 text-2xl font-extrabold text-accent font-heading tracking-tight leading-none "> Follow Us</h1>
+        <h1 className="max-w-2xl mb-4 text-2xl font-bold text-accent font-heading tracking-tight leading-none "> Follow Us</h1>
         <div className="flex space-x-6">
           <a href="#" className="text-accent hover:text-yellow-500">
             <span className="sr-only">Facebook</span>

@@ -8,7 +8,7 @@ export default function HeroWithVideo(props) {
     <div className="lg:mx-20 py-4 sm:py-48 lg:py-24">
 
       <div className="">
-        <h1 className="font-bold lg:text-5xl tracking-tight">{props.heading}</h1>
+        <h1 className="font-bold font-heading lg:text-5xl tracking-tight">{props.heading}</h1>
         <p className="mb-6 font-body text-xl lg:text-3xl lg:mb-8 ">{props.description}</p>
       </div>
 

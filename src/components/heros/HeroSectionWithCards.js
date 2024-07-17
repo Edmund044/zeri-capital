@@ -20,7 +20,7 @@ export default function HeroSectionWithCards(props) {
 <section className="bg-gray-100">
 <div className="px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-24">
   <div className="text-center">
-    <h1 className="max-w-2xl mx-auto  mb-4 text-4xl text-center font-extrabold font-heading tracking-tight leading-none md:text-5xl xl:text-5xl dark:text-white">{props.heading}</h1>
+    <h1 className="max-w-2xl mx-auto  mb-4 text-4xl text-center font-bold font-heading tracking-tight leading-none md:text-5xl xl:text-5xl dark:text-white">{props.heading}</h1>
 
     <p className="mb-6 font-body ml-2 text-3xl lg:mb-8 ">
       {props.subheading1}

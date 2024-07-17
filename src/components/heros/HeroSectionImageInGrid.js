@@ -25,7 +25,7 @@ export default function HeroSectionImageInGrid(props){
 
     <div  className="lg:col-span-6 lg:px-auto ">
         
-        <h1 className="font-bold text-center text-5xl tracking-tight">Commitments by Ticket Size</h1>
+        <h1 className="font-bold text-center font-heading text-5xl tracking-tight">Commitments by Ticket Size</h1>
     <Image
               src="/images/commitment1.png"
               alt="Picture of the author"
@@ -36,7 +36,7 @@ export default function HeroSectionImageInGrid(props){
     </div>
     <div  className="lg:col-span-6 lg:px-auto ">
         
-        <h1 className="font-bold text-center text-5xl tracking-tight">Commitments by Investor Type</h1>
+        <h1 className="font-bold text-center font-heading text-5xl tracking-tight">Commitments by Investor Type</h1>
     <Image
               src="/images/commitment21.png"
               alt="Picture of the author"
@@ -48,7 +48,7 @@ export default function HeroSectionImageInGrid(props){
     </div>
     <div  className="lg:col-span-6 lg:px-auto ">
         
-        <h1 className="font-bold text-center text-5xl tracking-tight">Companies we work with</h1>
+        <h1 className="font-bold text-center font-heading text-5xl tracking-tight">Companies we work with</h1>
     <Image
               src="/images/commitment3.png"
               alt="Picture of the author"
@@ -59,7 +59,7 @@ export default function HeroSectionImageInGrid(props){
     </div>
     <div  className="lg:col-span-6 lg:px-auto ">
         
-        <h1 className="font-bold text-center text-5xl tracking-tight">Transaction Focus</h1>
+        <h1 className="font-bold text-center font-heading text-5xl tracking-tight">Transaction Focus</h1>
     <Image
               src="/images/commitment4.png"
               alt="Picture of the author"

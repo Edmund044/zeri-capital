@@ -41,7 +41,7 @@ export default function News_() {
                        subheading="Sign up to get valuable insights and thought leadership that empowers your decision making."
                        buttonText="Let's learn"
                        type="2"
-                       backGroundColor="bg-white"
+                       backGroundColor="bg-white font-heading"
             />
             <Footer/>
         </div>

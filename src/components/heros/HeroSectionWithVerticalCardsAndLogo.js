@@ -17,7 +17,7 @@ export default function HeroSectionWithVerticalCardsAndLogo(props) {
 <section  className={props.sectionClass}>
 <div className="px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-24">
   <div className="text-center">
-    <h1 className=" mb-4 text-3xl lg:text-4xl font-extrabold font-heading md:text-5xl xl:text-5xl text-center">{props.heading}</h1>
+    <h1 className=" mb-4 text-3xl lg:text-4xl font-bold font-heading md:text-5xl xl:text-5xl text-center">{props.heading}</h1>
 
     <p className="mb-6 font-body ml-2 text-xl lg:text-3xl lg:mb-8 ">
       {props.subheading1}
@@ -27,8 +27,8 @@ export default function HeroSectionWithVerticalCardsAndLogo(props) {
     </p>
   </div>
 
-  <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-    <div className="mr-auto place-self-center lg:col-span-7">
+  {/* <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12"> */}
+    <div className="lg:col-span-12">
     {
               props.contents.map((value,index,array)=>{
                 return (
@@ -38,16 +38,16 @@ export default function HeroSectionWithVerticalCardsAndLogo(props) {
                   </div>
                 )})}
     </div>
-    <div className="lg:mt-0 lg:col-span-5 lg:flex">
-    {/* <Image
+    {/* <div className="lg:mt-0 lg:col-span-5 lg:flex">
+    <Image
       src="/images/zeri_logo_v4.jpeg"
       alt="Picture of the author"
       width={400} 
       height={300}
-    /> */}
+    />
      <img className="rounded-none" src="/images/zeri_logo_v4.jpeg" alt=""></img>
-    </div>                
-</div>
+    </div>                 */}
+{/* </div> */}
 
   {/* <div className={props.cardClassBackground}>
   {

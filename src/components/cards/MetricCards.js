@@ -2,7 +2,7 @@ export default function MetricCard() {
     return ( 
 <div className="flex items-center min-h-screen bg-gray-50 dark:bg-gray-900">
 	<div className="container max-w-6xl px-5 mx-auto my-28">
-		<div className="grid gap-7 sm:grid-cols-2 lg:grid-cols-4">
+		<div className="grid gap-7 font-heading sm:grid-cols-2 lg:grid-cols-4">
 			<div className="p-5 bg-white rounded shadow-sm">
 				<div className="text-base text-gray-400 ">Total Sales</div>
 				<div className="flex items-center pt-1">

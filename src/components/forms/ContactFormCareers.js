@@ -1,7 +1,7 @@
 export default function ContactFormCareers() {
     return (
 
-<section className="bg-white dark:bg-gray-900">
+<section className="bg-white dark:bg-gray-900 font-heading">
   <div className=" bg-gray-100 px-4 py-8 mt-32 ml-32 mb-32 mr-48 lg:py-24">
       <h2 className="mb-4 text-xl font-bold text-gray-900 dark:text-white"> Please fill this form and we will get back to you soon.</h2>
       <form action="#">

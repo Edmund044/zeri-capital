@@ -33,7 +33,7 @@ export default function news() {
             />
             <HeroSectionWithImage 
           heading="Zeri News"
-          headingClass="max-w-2xl mb-4 lg:text-5xl text-3xl font-extrabold font-heading tracking-tight text-accent leading-none md:text-5xl xl:text-6xl dark:text-white"
+          headingClass="max-w-2xl mb-4 lg:text-5xl text-3xl font-bold font-heading tracking-tight text-accent leading-none md:text-5xl xl:text-6xl dark:text-white"
           description="We believe every Zerian has the capacity for excellence, integrity, passion and curiosity for service to the Entrepreneur and their businesses, so we leave no one behind htmlFor every day is day one"
           picture="/images/vision.png"
           />
@@ -43,7 +43,7 @@ export default function news() {
            subheading="On the latest thought leadership and news from Zeri, please subscribe."
            buttonText="Let's learn"
            type="2"
-           backGroundColor="bg-gray-100"
+           backGroundColor="bg-gray-100 font-heading"
        />
             <Footer/>
         </main>    

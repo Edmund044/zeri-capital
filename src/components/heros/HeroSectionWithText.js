@@ -8,7 +8,7 @@ export default function HeroSectionWithText(props) {
   <div className="relative isolate px-6 pt-14 lg:px-8">
     <div className=" py-4 sm:py-48 lg:py-24">
       <div className="">
-        <h1 className="font-bold text-center text-5xl tracking-tight">{props.heading}</h1>
+        <h1 className="font-bold font-heading text-center text-5xl tracking-tight">{props.heading}</h1>
         <p className="mt-6 leading-8 ml-44 mr-32 text-gray-600 text-2xl font-body">{props.description}</p>
         <ul className="mt-6 leading-8 ml-48 mr-32 list-disc text-gray-600 text-2xl font-body">
         {

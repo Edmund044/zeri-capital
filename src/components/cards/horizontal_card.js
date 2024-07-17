@@ -52,14 +52,14 @@ export default function HorizontalCard() {
                         </div>
                         <div className="lg:mr-24 lg:ml-20 mx-4 lg:mt-0  lg:col-span-7 ">
                         <div className="mb-8">
-                          <p className="max-w-2xl mb-4 text-xl text-grey-dark flex items-center">
+                          <p className="max-w-2xl mb-4 font-body text-xl text-grey-dark flex items-center">
                           {newsList.overline}
                           </p>
-                          <h3 className="text-black font-bold max-w-2xl mb-4 text-4xl lg:text-5xl mb-2">{newsList.name}</h3>
-                          <p className="max-w-2xl mb-4 text-xl text-grey-dark flex items-center">
+                          <h3 className="text-black font-bold font-heading max-w-2xl mb-4 text-4xl lg:text-5xl mb-2">{newsList.name}</h3>
+                          <p className="max-w-2xl mb-4 font-body text-xl text-grey-dark flex items-center">
                           {newsList.date}
                           </p>
-                          <p className="text-grey-darker text-base">
+                          <p className="text-grey-darker font-body text-base">
                           {newsList.body}
                           
                           </p>

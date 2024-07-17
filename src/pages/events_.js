@@ -13,7 +13,7 @@ export default function News_() {
                  heading="Advising the ambitious"
                  description="We advise Companies, Governments, Investors, and Fund managers on their most important financial strategic matters, serving as a trusted advisor whose sole mission is to ensure the best results for their clients."
                  buttonText=""
-                 jumboTronClass="bg-cover bg-no-repeat bg-[url('/images/gtc.jpeg')] bg-gray-800 bg-blend-multiply"
+                 jumboTronClass="bg-cover font-heading bg-no-repeat bg-[url('/images/gtc.jpeg')] bg-gray-800 bg-blend-multiply"
     />
             <CardWithDetailedNews 
                 title="Zeri capital inks deal with safaricom"
@@ -48,7 +48,7 @@ export default function News_() {
                        subheading="Sign up to get valuable insights and thought leadership that empowers your decision making."
                        buttonText="Let's learn"
                        type="2"
-                       backGroundColor="bg-white"
+                       backGroundColor="bg-white font-heading"
             />
             <Footer/>
         </div>

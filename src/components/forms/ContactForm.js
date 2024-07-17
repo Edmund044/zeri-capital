@@ -1,7 +1,7 @@
 import Image from 'next/image'
 export default function ContactForm() {
     return ( 
-        <main className="">
+        <main className="font-heading">
 
 <section className="bg-background dark:bg-gray-900">
 <div className="grid max-w-screen-xl px-4 py-12 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">

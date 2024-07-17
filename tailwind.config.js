@@ -9,10 +9,10 @@ module.exports = {
   ],
   theme: {
     extend: {
-      // fontFamily: {
-      //   heading: 'Cormorant', // Adds a new `font-display` className
-      //   body: 'Cormorant,'
-      // },
+      fontFamily: {
+        heading: ['Montserrat', 'sans-serif'],
+        body: ['Montserrat', 'sans-serif'],
+      },
       colors: {
         background: '#FFFFFF',
         onBackground: '#FFF8F1',

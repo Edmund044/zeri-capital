@@ -12,17 +12,17 @@ export default function Team() {
             <HeroSectionWithBackGroundImage
               heading="Relationships nurture success"
               description="Zerians are professionals who are purpose led and mission driven to accelerate the growth of Africa’s most impactful businesses. We value every Zerian for we believe they are our most important asset. "
-              jumboTronClass="bg-cover bg-no-repeat bg-[url('/images/team.jpeg')] bg-gray-800 bg-blend-multiply"
+              jumboTronClass="bg-cover font-heading bg-no-repeat bg-[url('/images/team.jpeg')] bg-gray-800 bg-blend-multiply"
               type="2"
             />
             
             <CardWithImage
-                gridClass="mt-8 lg:mx-24 mx-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3"
+                gridClass="mt-8 lg:mx-24 font-heading mx-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3"
                 classHeading="text-5xl text-center font-bold font-heading text-accent md:text-5xl"
                 contents={
                     [
                         { image: "/images/ronald.jpeg",
-                          name: "Ronald Ouma", 
+                          name: "Ronald R. Ouma", 
                           title: "Chief Executive Officer.", 
                           social_media:{
                             linkedin: "https://www.linkedin.com/in/ronaldouma/"} 
@@ -48,14 +48,14 @@ export default function Team() {
                     
                       ]
                 }
-                buttonClass="text-white hidden lg:ml-[680px] mx-28  bg-accent outline hover:bg-secondary font-medium rounded-full text-sm px-4 py-2"
+                buttonClass="text-white hidden font-heading lg:ml-[680px] mx-28  bg-accent outline hover:bg-secondary font-medium rounded-full text-sm px-4 py-2"
             />
             <HeroSectionCTA
                 heading="Stay Curious"
                 subheading="Sign up to get valuable insights and thought leadership that empowers your decision making."
                 buttonText="Let's learn"
                 type="2"
-                backGroundColor="bg-white"
+                backGroundColor="bg-white font-heading"
        />
             <Footer/>
         </div>
