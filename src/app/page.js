@@ -8,6 +8,7 @@ import HeroSectionWithCardsAndLogo from "@/components/heros/HeroSectionWithCards
 import CardWithImage from "@/components/cards/CardWithImage";
 import HeroSectionWithImageLeft from "@/components/heros/HeroSectionWithImageLeft";
 import HeroSectionWithImageOverlay from "@/components/heros/HeroSectionWithImageOverlay";
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -19,6 +20,21 @@ export default function Home() {
           description2="Our goal is to be the firm of choice for clients with respect to their most challenging Capital Taising needs, most significant M&A transactions, critical Debt Advisory & Structured Finance, and most important Project & Infrastructure Finance needs."
           image="/images/zeri_logo_v3.png"
         />
+        <div className="bg-white">
+            <div className="relative isolate px-6 lg:px-8">
+              <div className="py-4 sm:py-48 lg:py-20">
+                <div className="">
+                <Image
+      src="/images/zeri_logo_v3.png"
+      alt="Picture of the author"
+      width={400} 
+      height={300}
+      className='mx-auto'/>
+                  <p className="mb-6 font-body text-black ml-2 text-xl lg:text-3xl lg:mb-8">Our goal is to be the firm of choice for clients with respect to their most challenging Capital Taising needs, most significant M&A transactions, critical Debt Advisory & Structured Finance, and most important Project & Infrastructure Finance needs.</p>
+                </div>
+              </div>
+            </div>
+          </div>
         <HeroSectionWithImageOverlay 
           heading="OUR VISION"
           subheading="To be Africa’s most exceptional and effective Investment Banking firm."
