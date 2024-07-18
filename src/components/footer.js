@@ -32,17 +32,17 @@ export default function Footer() {
                   </ul>
               </div>
               <div>
-                  <h2 className="mb-6 lg:text-4xl text-2xl font-semibold text-white  dark:text-white">Contact Us</h2>
+                  <h2 className="mb-6 lg:text-2xl text-2xl font-semibold text-white  dark:text-white">Contact Us</h2>
                   <ul className="text-white dark:text-gray-400 font-medium">
                       <li className="mb-4">
-                          <a href="https://flowbite.com/" className="hover:underline  lg:text-2xl">3rd Floor, Wing A </a>
+                          <a href="https://flowbite.com/" className="hover:underline  lg:text-xl">3rd Floor, Wing A </a>
                           
                       </li>
                       <li>
-                          <a href="https://tailwindcss.com/" className="hover:underline  lg:text-2xl">+254 711 447292</a>
+                          <a href="https://tailwindcss.com/" className="hover:underline  lg:text-xl">+254 711 447292</a>
                       </li>
                       <li className="mb-4">
-                          <a href="https://flowbite.com/" className="hover:underline lg:text-2xl">hello@zericapital.com</a>
+                          <a href="https://flowbite.com/" className="hover:underline lg:text-xl">hello@zericapital.com</a>
                       </li>
                   </ul>
               </div>
@@ -66,19 +66,19 @@ export default function Footer() {
 
 
               <div>
-                  <h2 className="mb-6 lg:text-4xl text-2xl font-semibold text-white  dark:text-white">Our Company</h2>
+                  <h2 className="mb-6 lg:text-3xl font-heading text-2xl font-semibold text-white  dark:text-white">Our Company</h2>
                   <ul className="text-white dark:text-gray-400 font-medium">
                       <li className="mb-4">
-                          <a href="#" className="hover:underline lg:text-2xl">Insights</a>
+                          <a href="#" className="hover:underline lg:text-xl">Insights</a>
                       </li>
                       <li>
-                          <a href="#" className="hover:underline lg:text-2xl">News</a>
+                          <a href="#" className="hover:underline lg:text-xl">News</a>
                       </li>
                       <li className="mb-4">
-                          <a href="#" className="hover:underline lg:text-2xl">Events</a>
+                          <a href="#" className="hover:underline lg:text-xl">Events</a>
                       </li>
                       <li>
-                          <a href="#" className="hover:underline lg:text-2xl">Legal Policies</a>
+                          <a href="#" className="hover:underline lg:text-xl">Legal Policies</a>
                       </li>
                   </ul>
               </div>

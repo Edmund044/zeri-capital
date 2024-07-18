@@ -127,7 +127,7 @@ export default function Capabilities() {
                   },
               ]}
         />
-        <HeroSectionWithCardsAndLogo
+        {/* <HeroSectionWithCardsAndLogo
       heading="INDUSTRIES"
       subheading1="We are sector agnostic though largely provide advice and understanding in sectors that have high impact."
       subheading2=""
@@ -179,8 +179,8 @@ export default function Capabilities() {
               subheading: ""
             },
       ]}
-      />
-        {/* <HeroSectionHorizontalScrollCard
+      /> */}
+        <HeroSectionHorizontalScrollCard
           heading="Industries"
           subheading="We are sector agnostic though largely provide advice and understanding in sectors that have high impact:"
           description="We are deeply passionate about the success of the African Entrepreneur. Our commitment to supporting and helping them and the communities they operate in never wavers."
@@ -189,11 +189,42 @@ export default function Capabilities() {
           headingClass="max-w-2xl mb-4 mx-24 text-5xl font-bold font-heading tracking-tight text-accent leading-none md:text-5xl xl:text-6xl dark:text-white"
           cardHeading="Financial Services"
           cardHeadingClass="text-4xl font-bold text-white"
-        /> */}
+        />
         {/* <HeroWithVideo
         video="/images/vision.png"
         /> */}
-        <HeroSectionWithVerticalCardsAndLogo
+            <CardWithNoimage
+      heading="Creating value that endures for the long term"
+      gridClass="mt-8 lg:mx-24 mx-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-5"
+      subheading1=""
+      sectionClass="bg-accent text-white"
+      cardClassHeading="mt-4 text-4xl font-bold text-gray-700 text-white font-heading"
+      cardClassSubHeading="mt-1 text-2xl text-white"
+      cardClassBackground="mt-8  bg-[url('/images/card_background10.png')] grid grid-cols-1 lg:gap-48 md:grid-cols-2 lg:grid-cols-2"
+      contents={[
+        {
+          title: "$6.3B+", 
+          subheading: "In transactions successfully structured and advised."
+          },
+          {      
+            title: "950+", 
+            subheading: "Investor Relations, including Institutional, Family offices, and Sovereign Funds, who invest $ 1 M – $ 300 M per commitment."
+          },
+          { 
+            title: "540+", 
+            subheading: "Engagements completed to date."
+          },
+          { 
+            title: "25+", 
+            subheading: "African Markets"
+          },
+          { 
+            title: "17+", 
+            subheading: "Industries"
+          },
+      ]}
+    />
+        {/* <HeroSectionWithVerticalCardsAndLogo
       heading="Creating value that endures for the long term"
       subheading1="We understand what it takes to build strong foundations, create growth and generate results. We are committed to ensuring our clients' long-term success."
       sectionClass="bg-accent text-white font-heading"
@@ -218,7 +249,7 @@ export default function Capabilities() {
             subheading: "Industries"
           },
       ]}
-      />
+      /> */}
           <div className="grid px-4 py-20 mx-auto bg-white xl:gap-0 lg:py-16 lg:grid-cols-12">
 
                     <div  className="lg:col-span-6">

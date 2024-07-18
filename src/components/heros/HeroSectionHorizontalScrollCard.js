@@ -60,12 +60,12 @@ export default function HeroSectionHorizontalScrollCard(props) {
         >
         <div className="inline-block overflow-hidden px-3">
             <div className="grid lg:gap-0 xl:gap-0 lg:py-4 lg:grid-cols-12 snap-center"> 
-                <div className="mr-auto place-self-center py-40 px-8 lg:col-span-6 text-white bg-accent">
+                <div className="mr-auto place-self-center py-32 px-8 lg:col-span-6 text-white bg-accent">
         <h1 className={props.cardHeadingClass}>{props.cardHeading}</h1>
                     <p className="text-2xl mb-6 font-body lg:mb-8">{props.description}</p>
         </div>
         <div className="lg:mt-0  lg:col-span-6 ">
-        <img className="rounded-none" src={props.picture} alt=""></img>
+        <img className="rounded-none lg:h-[462px]" src={props.picture} alt=""></img>
         {/* <Image
                 src={props.picture}
                 alt="Picture of the author"

@@ -20,21 +20,35 @@ export default function Home() {
           description2="Our goal is to be the firm of choice for clients with respect to their most challenging Capital Taising needs, most significant M&A transactions, critical Debt Advisory & Structured Finance, and most important Project & Infrastructure Finance needs."
           image="/images/zeri_logo_v3.png"
         />
-        <div className="bg-white">
+        {/* <div className="bg-white ">
             <div className="relative isolate px-6 lg:px-8">
-              <div className="py-4 sm:py-48 lg:py-20">
-                <div className="">
-                <Image
-      src="/images/zeri_logo_v3.png"
-      alt="Picture of the author"
-      width={400} 
-      height={300}
-      className='mx-auto'/>
-                  <p className="mb-6 font-body text-black ml-2 text-xl lg:text-3xl lg:mb-8">Our goal is to be the firm of choice for clients with respect to their most challenging Capital Taising needs, most significant M&A transactions, critical Debt Advisory & Structured Finance, and most important Project & Infrastructure Finance needs.</p>
+              <div className="mt-8 lg:mx-24 mx-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-5">
+                <div className="lg:col-span-6">
+                  <p className="mb-6 font-body text-black ml-2 text-xl lg:text-3xl lg:mb-8">Our goal is to be the firm of choice for clients with respect to their most challenging Capital raising needs, most significant M&A transactions, critical Debt Advisory & Structured Finance, and most important Project & Infrastructure Finance needs.</p>
+                </div>
+                <div className="lg:col-span-6">
+                              <Image
+                    src="/images/zeri_logo_v3.png"
+                    alt="Picture of the author"
+                    width={400} 
+                    height={300}
+                    className='mx-auto'/>
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
+          <div className="grid max-w-screen-xl px-4 py-12 mx-auto lg:gap-8 xl:gap-0 lg:py-8 lg:grid-cols-12">
+    <div className=" lg:col-span-6">
+    <p className="mb-6 font-body text-black mt-32 ml-2 text-xl lg:text-3xl lg:mb-8">Our goal is to be the firm of choice for clients with respect to their most challenging Capital raising needs, most significant M&A transactions, critical Debt Advisory & Structured Finance, and most important Project & Infrastructure Finance needs.</p>
+    </div>
+    <div className="bg-white lg:mt-0  lg:col-span-6 px-16 pt-16 ">
+    <img
+              className="lg:h-[350px] object-contain lg:mr-32  lg:w-[350px]"
+              src="/images/zeri_logo_v3.png"
+              alt="/"
+            ></img>
+    </div>                
+</div>
         <HeroSectionWithImageOverlay 
           heading="OUR VISION"
           subheading="To be Africa’s most exceptional and effective Investment Banking firm."
