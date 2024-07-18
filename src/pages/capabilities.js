@@ -232,11 +232,11 @@ export default function Capabilities() {
     <div className="bg-white lg:py-8">
                           <p className="lg:ml-48  lg:mb-4 flex"><img className="lg:w-[60px]" src="/images/blue_logo_1.png" alt="/"
             ></img><span className="mt-4 -ml-4 font-heading">$1M - $10M</span></p>
-                          <p className="lg:ml-48 -mt-8 lg:mb-4 flex"><img className="lg:w-[60px]" src="/images/grey.png" alt="/"
+                          <p className="lg:ml-48 -mt-8 lg:mb-4 flex"><img className="lg:w-[60px]" src="/images/grey_4.png" alt="/"
             ></img><span className="mt-4 -ml-4 font-heading">$10M - $30M</span></p>
-                                      <p className="lg:ml-48 -mt-8 lg:mb-4 flex"><img className="lg:w-[60px]" src="/images/light_blue_logo.png" alt="/"
+                                      <p className="lg:ml-48 -mt-8 lg:mb-4 flex"><img className="lg:w-[60px]" src="/images/light_blue_4.png" alt="/"
             ></img><span className="mt-4 -ml-4 font-heading">$30M - $150M</span></p>
-                                                  <p className="lg:ml-48 -mt-8 lg:mb-4 flex"><img className="lg:w-[60px]" src="/images/light_blue_logo.png" alt="/"
+                                                  <p className="lg:ml-48 -mt-8 lg:mb-4 flex"><img className="lg:w-[60px]" src="/images/light_blue_4.png" alt="/"
             ></img><span className="mt-4 -ml-4 font-heading">$150M+</span></p>
                           </div> 
                                           {/* <img
@@ -254,11 +254,11 @@ export default function Capabilities() {
                           <Doughnut data={data2} />
                         </div>  
                         <div className="bg-white font-heading lg:py-8 h-full">
-                          <p className="lg:ml-48 lg:mb-4 inline-flex"> <img className="lg:w-[60px]" src="/images/blue_logo_1.png" alt="/"
+                          <p className="lg:ml-48 lg:mb-4 flex"> <img className="lg:w-[60px]" src="/images/blue_logo_1.png" alt="/"
             ></img><span className="mt-4 -ml-4">Private Instituitons</span></p>
-                          <p className="lg:ml-48 -mt-8 lg:mb-4 flex"><img className="lg:w-[60px]" src="/images/grey.png" alt="/"
+                          <p className="lg:ml-48 -mt-8 lg:mb-4 flex"><img className="lg:w-[60px]" src="/images/grey_4.png" alt="/"
             ></img><span className="mt-4 -ml-4">Family Offices</span></p>
-                          <p className="lg:ml-48 -mt-8 lg:mb-4 inline-flex"><img className="lg:w-[60px]" src="/images/light_blue_logo.png" alt="/"
+                          <p className="lg:ml-48 -mt-8 lg:mb-4 flex"><img className="lg:w-[60px]" src="/images/light_blue_4.png" alt="/"
             ></img><span className="mt-4 -ml-4">SWF/Governments Instituitons</span></p>
                           </div>                              
                                                          
