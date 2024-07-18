@@ -204,15 +204,15 @@ export default function Capabilities() {
       contents={[
         {
           title: "$6.3B+", 
-          subheading: "In transactions successfully structured and advised."
+          subheading: "Transactions"
           },
           {      
             title: "950+", 
-            subheading: "Investor Relations, including Institutional, Family offices, and Sovereign Funds, who invest $ 1 M – $ 300 M per commitment."
+            subheading: "Investor Relations"
           },
           { 
             title: "540+", 
-            subheading: "Engagements completed to date."
+            subheading: "Engagements"
           },
           { 
             title: "25+", 
